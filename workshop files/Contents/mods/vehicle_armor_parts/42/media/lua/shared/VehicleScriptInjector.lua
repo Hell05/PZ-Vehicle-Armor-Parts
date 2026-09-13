@@ -10,7 +10,7 @@ local lookuptable = require("VAPlookuptables")
 
 local DEBUG = true
 local forceOverrideModelDEBUG = true
-local forceOMDEBUGvehicle = "CarNormal"
+local forceOMDEBUGvehicle = nil -- "CarNormal"
 local forceOMDEBUGtier = {"Bone"}
 
 local function VAPDebug(message)
