@@ -1,11 +1,5 @@
 module Base
 {
-    model Wood_Bullbar
-    {
-        mesh = vehicles/Vehicles_Bullbar,
-        texture = Vehicles/Vehicles_vehiclearmourparts,
-        scale = 1,
-    }
     model Scrap_Bullbar
     {
         mesh = vehicles/Vehicles_Bullbar,
@@ -22,6 +16,93 @@ module Base
     {
         mesh = vehicles/Vehicles_Bullbar,
         texture = Vehicles/Vehicles_vehiclearmourparts,
+        scale = 1,
+    }
+
+
+
+    model CarNormal_Wood_Bullbar
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_bullbar_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_HoodArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_hood_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_WindshieldArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_windshield_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_TrunkArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_trunk_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_WindshieldRearArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_rear_windshield_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_DoorFrontLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_front_left_door_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_DoorFrontRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_front_right_door_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_WindowFrontLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_front_left_window_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_WindowFrontRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_front_right_window_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_DoorRearLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_rear_left_door_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_DoorRearRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_rear_right_door_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_WindowRearLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_rear_left_window_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_WindowRearRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_rear_right_window_armor,
+        texture = Vehicles/Vehicles_woodarmourparts,
+        scale = 1,
+    }
+    model CarNormal_Wood_RoofRack
+    {
+        mesh = vehicles/Vehicles_CarNormal_Wood|normal_wood_roofrack,
+        texture = Vehicles/Vehicles_woodarmourparts,
         scale = 1,
     }
 
@@ -109,6 +190,93 @@ module Base
     {
         mesh = vehicles/Vehicles_CarNormal_Bone|normal_bone_roofrack,
         texture = Vehicles/Vehicles_bonearmourparts,
+        scale = 1,
+    }
+
+
+
+    model CarNormal_Scrap_Bullbar
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_bullbar_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_HoodArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_hood_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_WindshieldArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_windshield_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_TrunkArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_trunk_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_WindshieldRearArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_rear_windshield_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_DoorFrontLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_front_left_door_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_DoorFrontRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_front_right_door_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_WindowFrontLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_front_left_window_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_WindowFrontRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_front_right_window_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_DoorRearLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_rear_left_door_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_DoorRearRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_rear_right_door_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_WindowRearLeftArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_rear_left_window_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_WindowRearRightArmour
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_rear_right_window_armor,
+        texture = Vehicles/Vehicles_scraparmourparts,
+        scale = 1,
+    }
+    model CarNormal_Scrap_RoofRack
+    {
+        mesh = vehicles/Vehicles_CarNormal_Scrap|normal_scrap_chain_roof_rack,
+        texture = Vehicles/Vehicles_scraparmourparts,
         scale = 1,
     }
 

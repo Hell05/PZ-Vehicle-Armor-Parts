@@ -11,7 +11,7 @@ local lookuptable = require("VAPlookuptables")
 local DEBUG = true
 local forceOverrideModelDEBUG = true
 local forceOMDEBUGvehicle = nil -- "CarNormal"
-local forceOMDEBUGtier = {"Bone"}
+local forceOMDEBUGtier = {"Scrap"}
 
 local function VAPDebug(message)
     if DEBUG then

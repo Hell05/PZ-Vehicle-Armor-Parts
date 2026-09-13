@@ -21,894 +21,894 @@ local modelSets =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.082, 1.299}, rotateZ, scaleZ},
         },
 
         ["Armour_Hood"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
+            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
             {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
-            {"Scrap_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
-            {"Light_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
-            {"Heavy_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
+            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
+            {"Light_HoodArmour", "CarNormal_Light_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
+            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour", {0.0, 0.066, 0.819}, rotateZ, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.192, 0.341}, rotateZ, scaleZ},
         },
 
         ["Armour_Trunk"] =
         {
-            {"Wood_TrunkArmour",  "CarNormal_Bone_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
+            {"Wood_TrunkArmour",  "CarNormal_Wood_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
             {"Bone_TrunkArmour",  "CarNormal_Bone_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
-            {"Scrap_TrunkArmour", "CarNormal_Bone_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
-            {"Light_TrunkArmour", "CarNormal_Bone_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
-            {"Heavy_TrunkArmour", "CarNormal_Bone_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
+            {"Scrap_TrunkArmour", "CarNormal_Scrap_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
+            {"Light_TrunkArmour", "CarNormal_Light_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
+            {"Heavy_TrunkArmour", "CarNormal_Heavy_TrunkArmour", {0.0, -0.059, -1.148}, rotateZ, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.214, -0.632}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.445, -0.066, 0.132}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.445, -0.066, 0.132}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour", {0.357, 0.181, 0.115}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour", {-0.357, 0.181, 0.115}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorRearLeft"] =
         {
-            {"Wood_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Wood_DoorRearLeftArmour",  "CarNormal_Wood_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
             {"Bone_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
-            {"Scrap_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
-            {"Light_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
-            {"Heavy_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Scrap_DoorRearLeftArmour", "CarNormal_Scrap_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Light_DoorRearLeftArmour", "CarNormal_Light_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Heavy_DoorRearLeftArmour", "CarNormal_Heavy_DoorRearLeftArmour", {0.445, -0.066, -0.286}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorRearRight"] =
         {
-            {"Wood_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Wood_DoorRearRightArmour",  "CarNormal_Wood_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
             {"Bone_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
-            {"Scrap_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
-            {"Light_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
-            {"Heavy_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Scrap_DoorRearRightArmour", "CarNormal_Scrap_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Light_DoorRearRightArmour", "CarNormal_Light_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
+            {"Heavy_DoorRearRightArmour", "CarNormal_Heavy_DoorRearRightArmour", {-0.445, -0.066, -0.286}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowRearLeft"] =
         {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
             {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
-            {"Light_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour", {0.357, 0.181, -0.236}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowRearRight"] =
         {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
             {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
-            {"Light_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
+            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour", {-0.357, 0.181, -0.236}, rotateZ, scaleZ},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.34, -0.132}, rotateZ, scaleZ},
         },
     },
     ["CarStationWagon"] =
     {
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.165, -1.264}, {-22.0, 0.0, 0.0}, scaleZ},
         },
     },
     ["PickUpTruck"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.088, 1.132}, rotateZ, scaleZ},
         },
 
         ["Armour_Hood"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
+            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
             {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
-            {"Scrap_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
-            {"Light_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
-            {"Heavy_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
+            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
+            {"Light_HoodArmour", "CarNormal_Light_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
+            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour", {0.0, 0.077, 0.765}, {4.0, 0.0, 0.0}, 0.9},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.214, 0.418}, {12.0, 0.0, 0.0}, 0.9},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.198, -0.104}, {-31.0, 0.0, 0.0}, 0.9},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.401, -0.066, 0.132}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.401, -0.066, 0.132}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour", {0.335, 0.181, 0.128}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour", {-0.335, 0.181, 0.128}, rotateZ, scaleZ},
         },
     },
     ["PickUpVan"] =
     {
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.198, -1.082}, {-23.0, 0.0, 0.0}, 0.9},
         },
     },
     ["Van"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.196, 1.176}, {6.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.242, 0.732}, {10.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.214, -1.102}, {-25.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour", {0.418, 0.214, 0.478}, {0.0, 0.0, -10.0}, scaleZ},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour", {-0.418, 0.214, 0.478}, {0.0, 0.0, 10.0}, scaleZ},
         },
     },
     ["StepVan"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.242, 1.187}, rotateZ, scaleZ},
         },
     },
     ["SportsCar"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, 0.0, 1.049}, {-5.0, 0.0, 0.0}, 0.8},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.168, 0.165}, {-9.0, 0.0, 0.0}, 0.8},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.27, -0.225}, rotateZ, 0.8},
         },
     },
     ["SmallCar"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.02, 0.912}, rotateZ, 0.8},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.187, 0.269}, {-10.0, 0.0, 0.0}, 0.9},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.176, -0.765}, {10.0, 0.0, 0.0}, 0.8},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.396, -0.055, -0.096}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.396, -0.055, -0.096}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour", {0.319, 0.181, -0.068}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour", {-0.319, 0.181, -0.068}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowRearLeft"] =
         {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
             {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
-            {"Light_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour", {0.317, 0.181, -0.467}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowRearRight"] =
         {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
             {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
-            {"Light_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
+            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour", {-0.317, 0.181, -0.467}, rotateZ, scaleZ},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.324, -0.203}, rotateZ, 0.9},
         },
     },
     ["SmallCar02"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.085, 1.121}, rotateZ, 0.8},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.179, 0.269}, {-11.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.192, -0.765}, {10.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.429, -0.068, -0.159}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.429, -0.068, -0.159}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour", {0.363, 0.181, -0.126}, {0.0, 0.0, -12.0}, scaleZ},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour", {-0.363, 0.181, -0.126}, {0.0, 0.0, 12.0}, scaleZ},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.357, -0.224}, rotateZ, 0.9},
         },
     },
     ["ModernCar"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.055, 1.174}, rotateZ, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.176, 0.429}, {-10.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.223, -0.681}, {18.0, 0.0, 0.0}, 0.9},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.459, -0.066, 0.132}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.459, -0.066, 0.132}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorRearLeft"] =
         {
-            {"Wood_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Wood_DoorRearLeftArmour",  "CarNormal_Wood_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
             {"Bone_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
-            {"Scrap_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
-            {"Light_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
-            {"Heavy_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Scrap_DoorRearLeftArmour", "CarNormal_Scrap_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Light_DoorRearLeftArmour", "CarNormal_Light_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Heavy_DoorRearLeftArmour", "CarNormal_Heavy_DoorRearLeftArmour", {0.467, -0.066, -0.321}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorRearRight"] =
         {
-            {"Wood_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Wood_DoorRearRightArmour",  "CarNormal_Wood_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
             {"Bone_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
-            {"Scrap_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
-            {"Light_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
-            {"Heavy_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Scrap_DoorRearRightArmour", "CarNormal_Scrap_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Light_DoorRearRightArmour", "CarNormal_Light_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
+            {"Heavy_DoorRearRightArmour", "CarNormal_Heavy_DoorRearRightArmour", {-0.467, -0.066, -0.321}, rotateZ, scaleZ},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.334, -0.132}, rotateZ, 0.9},
         },
     },
     ["ModernCar02"] =
     {
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.192, 0.401}, {-11.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.21, -0.692}, {9.0, 0.0, 0.0}, 0.9},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.342, -0.132}, rotateZ, 0.9},
         },
     },
     ["OffRoad"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.121, 0.923}, rotateZ, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.206, 0.132}, {27.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.203, -0.81}, {-23.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.407, -0.068, -0.121}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.407, -0.068, -0.121}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowRearRightArmour", {0.368, 0.181, -0.129}, {0.0, 180.0, 19.0}, scaleZ},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowRearLeftArmour", {-0.368, 0.181, -0.129}, {0.0, 180.0, -19.0}, scaleZ},
         },
 
         ["Armour_WindowRearLeft"] =
         {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
+            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
             {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
-            {"Light_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
+            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
+            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
+            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour", {0.368, 0.181, -0.511}, {0.0, 0.0, -19.0}, scaleZ},
         },
 
         ["Armour_WindowRearRight"] =
         {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
+            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
             {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
-            {"Light_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
+            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
+            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
+            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour", {-0.368, 0.181, -0.511}, {0.0, 0.0, 19.0}, scaleZ},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.401, -0.297}, rotateZ, scaleZ},
         },
     },
     ["SUV"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.082, 1.06}, rotateZ, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.192, 0.407}, {4.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.176, -0.962}, {-12.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.471, -0.055, 0.154}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.471, -0.055, 0.154}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowFrontLeft"] =
         {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
+            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
             {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Bone_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
+            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
+            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
+            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour", {0.393, 0.181, 0.148}, {0.0, 0.0, -8.0}, 0.95},
         },
 
         ["Armour_WindowFrontRight"] =
         {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
+            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
             {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
-            {"Light_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Bone_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
+            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
+            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
+            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour", {-0.393, 0.181, 0.148}, {0.0, 0.0, 8.0}, 0.95},
         },
 
         ["Armour_DoorRearLeft"] =
         {
-            {"Wood_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Wood_DoorRearLeftArmour",  "CarNormal_Wood_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
             {"Bone_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
-            {"Scrap_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
-            {"Light_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
-            {"Heavy_DoorRearLeftArmour", "CarNormal_Bone_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Scrap_DoorRearLeftArmour", "CarNormal_Scrap_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Light_DoorRearLeftArmour", "CarNormal_Light_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Heavy_DoorRearLeftArmour", "CarNormal_Heavy_DoorRearLeftArmour", {0.471, -0.055, -0.269}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorRearRight"] =
         {
-            {"Wood_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Wood_DoorRearRightArmour",  "CarNormal_Wood_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
             {"Bone_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
-            {"Scrap_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
-            {"Light_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
-            {"Heavy_DoorRearRightArmour", "CarNormal_Bone_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Scrap_DoorRearRightArmour", "CarNormal_Scrap_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Light_DoorRearRightArmour", "CarNormal_Light_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
+            {"Heavy_DoorRearRightArmour", "CarNormal_Heavy_DoorRearRightArmour", {-0.471, -0.055, -0.269}, rotateZ, scaleZ},
         },
 
         ["Armour_WindowRearLeft"] =
         {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
+            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
             {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
-            {"Light_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Bone_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
+            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
+            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
+            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour", {0.393, 0.181, -0.199}, {0.0, 0.0, -8.0}, 0.95},
         },
 
         ["Armour_WindowRearRight"] =
         {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
+            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
             {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
-            {"Light_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Bone_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
+            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
+            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
+            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour", {-0.393, 0.181, -0.199}, {0.0, 0.0, 8.0}, 0.95},
         },
     },
     ["RaceCar"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.109, 1.264}, rotateZ, scaleZ},
         },
 
         ["Armour_Hood"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
             {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Light_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Light_HoodArmour", "CarNormal_Light_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour", {0.0, 0.054, 0.807}, {10.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.214, 0.348}, {-10.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.229, -0.714}, {26.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.464, -0.029, -0.521}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.464, -0.029, -0.521}, rotateZ, scaleZ},
         },
     },
     ["CarLuxury"] =
     {
         ["Armour_Bullbar"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
+            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
             {"Bone_Bullbar",  "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
-            {"Scrap_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
-            {"Light_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
-            {"Heavy_Bullbar", "CarNormal_Bone_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
+            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
+            {"Light_Bullbar", "CarNormal_Light_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
+            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar", {0.0, -0.055, 1.192}, rotateZ, scaleZ},
         },
 
         ["Armour_Hood"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
             {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
-            {"Light_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_HoodArmour", "CarNormal_Bone_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Light_HoodArmour", "CarNormal_Light_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour", {0.0, 0.069, 0.731}, {4.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_Windshield"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldArmour", "CarNormal_Bone_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour", {0.0, 0.192, 0.234}, {-11.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_WindshieldRear"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
+            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
             {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
-            {"Light_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Bone_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
+            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
+            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
+            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour", {0.0, 0.22, -0.72}, {23.0, 0.0, 0.0}, scaleZ},
         },
 
         ["Armour_DoorFrontLeft"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
             {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Bone_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour", {0.493, -0.044, -0.214}, rotateZ, scaleZ},
         },
 
         ["Armour_DoorFrontRight"] =
         {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
             {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
-            {"Light_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Bone_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
+            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour", {-0.493, -0.044, -0.214}, rotateZ, scaleZ},
         },
 
         ["Storage_RoofRack"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
+            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
             {"Bone_RoofRack",  "CarNormal_Bone_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
-            {"Scrap_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
-            {"Light_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
-            {"Heavy_RoofRack", "CarNormal_Bone_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
+            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
+            {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
+            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.33, -0.227}, rotateZ, 0.9},
         },
     },
 }

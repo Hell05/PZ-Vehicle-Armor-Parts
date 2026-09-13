@@ -8,7 +8,7 @@ module Base
         Icon = icobullbar,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = Wood_Bullbar,
+        WorldStaticModel = CarNormal_Wood_Bullbar,
     }
     item Wood_HoodArmour
     {
@@ -18,7 +18,7 @@ module Base
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Wood_HoodArmour,
     }
     item Wood_WindshieldArmour
     {
@@ -28,7 +28,7 @@ module Base
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Wood_WindshieldArmour,
     }
     item Wood_DoorArmour
     {
@@ -38,7 +38,7 @@ module Base
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Wood_DoorFrontLeftArmour,
     }
     item Wood_WindowArmour
     {
@@ -48,7 +48,7 @@ module Base
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Wood_WindowFrontLeftArmour,
     }
     item Wood_TrunkArmour
     {
@@ -58,7 +58,7 @@ module Base
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Wood_TrunkArmour,
     }
     item Wood_TruckBedCover
     {
@@ -82,7 +82,7 @@ module Base
         ConditionAffectsCapacity = false,
         MaxCapacity = 20,
         MechanicsItem = true,
-        WorldStaticModel = STORAGENAME,
+        WorldStaticModel = CarNormal_Wood_RoofRack,
     }
 
 
@@ -182,7 +182,7 @@ module Base
         Icon = icobullbar,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Scrap_Bullbar,
     }
     item Scrap_HoodArmour
     {
@@ -192,7 +192,7 @@ module Base
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Scrap_HoodArmour,
     }
     item Scrap_WindshieldArmour
     {
@@ -202,7 +202,7 @@ module Base
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Scrap_WindshieldArmour,
     }
     item Scrap_DoorArmour
     {
@@ -212,7 +212,7 @@ module Base
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Scrap_DoorFrontLeftArmour,
     }
     item Scrap_WindowArmour
     {
@@ -222,7 +222,7 @@ module Base
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Scrap_WindowFrontLeftArmour,
     }
     item Scrap_TrunkArmour
     {
@@ -232,7 +232,7 @@ module Base
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Scrap_TrunkArmour,
     }
     item Scrap_TruckBedCover
     {
@@ -256,7 +256,7 @@ module Base
         ConditionAffectsCapacity = false,
         MaxCapacity = 60,
         MechanicsItem = true,
-        WorldStaticModel = STORAGENAME,
+        WorldStaticModel = CarNormal_Scrap_RoofRack,
     }
 
 
