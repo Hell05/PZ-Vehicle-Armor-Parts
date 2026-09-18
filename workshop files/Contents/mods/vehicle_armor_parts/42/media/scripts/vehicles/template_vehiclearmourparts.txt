@@ -94,10 +94,6 @@ module Base
 
         part Armour_DoorMiddleLeft
         {
-			model DoorMiddleLeftArmour
-				{
-                	file = ARMOURNAME,
-				}
             parent = DoorMiddleLeft,
 			area = SeatMiddleLeft,
             itemType = Base.Wood_DoorArmour;Base.Bone_DoorArmour;Base.Scrap_DoorArmour;Base.Light_DoorArmour;Base.Heavy_DoorArmour,
@@ -105,10 +101,6 @@ module Base
 
         part Armour_DoorMiddleRight
         {
-			model DoorMiddleRightArmour
-				{
-                	file = ARMOURNAME,
-				}
             parent = DoorMiddleRight,
 			area = SeatMiddleRight,
             itemType = Base.Wood_DoorArmour;Base.Bone_DoorArmour;Base.Scrap_DoorArmour;Base.Light_DoorArmour;Base.Heavy_DoorArmour,
@@ -116,10 +108,6 @@ module Base
 
         part Armour_WindowMiddleLeft
         {
-			model WindowMiddleLeftArmour
-				{
-                	file = ARMOURNAME,
-				}
             parent = WindowMiddleLeft,
 			area = SeatMiddleLeft,
             itemType = Base.Wood_WindowArmour;Base.Bone_WindowArmour;Base.Scrap_WindowArmour;Base.Light_WindowArmour;Base.Heavy_WindowArmour,
@@ -127,10 +115,6 @@ module Base
 
         part Armour_WindowMiddleRight
         {
-			model WindowMiddleRightArmour
-				{
-                	file = ARMOURNAME,
-				}
             parent = WindowMiddleRight,
 			area = SeatMiddleRight,
             itemType = Base.Wood_WindowArmour;Base.Bone_WindowArmour;Base.Scrap_WindowArmour;Base.Light_WindowArmour;Base.Heavy_WindowArmour,
@@ -138,10 +122,6 @@ module Base
 
         part Armour_Trailer
         {
-			model TrailerArmour
-				{
-                	file = ARMOURNAME,
-				}
 			area = TruckBed,
             itemType = Base.Light_TrailerArmour;Base.Heavy_TrailerArmour,
         }
@@ -238,12 +218,7 @@ module Base
         }
 
         part TireChain*
-        {			
-            model TireChainRearRight
-				{
-                	file = ARMOURNAME,
-                    offset = 0.0 0.0 0.0,
-				}
+        {
             category = tire,
             specificItem = false,
             itemType = Base.Light_TireChain;Base.Heavy_TireChain,
@@ -314,11 +289,6 @@ module Base
 
         part Storage_TruckBedCover
         {
-			model TruckBedCover
-				{
-                	file = STORAGENAME,
-                    offset = 0.0 0.5 0.0,
-				}
 			area = TruckBed,
             itemType = Base.Wood_TruckBedCover;Base.Bone_TruckBedCover;Base.Scrap_TruckBedCover;Base.Light_TruckBedCover;Base.Heavy_TruckBedCover,
         }

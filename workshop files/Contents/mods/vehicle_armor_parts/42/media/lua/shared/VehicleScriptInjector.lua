@@ -8,10 +8,10 @@
 
 local lookuptable = require("VAPlookuptables")
 
-local DEBUG = true
-local forceOverrideModelDEBUG = true
+local DEBUG = false
+local forceOverrideModelDEBUG = false
 local forceOMDEBUGvehicle = nil -- "CarNormal"
-local forceOMDEBUGtier = {"Scrap"}
+local forceOMDEBUGtier = nil -- {"Heavy"}
 
 local function VAPDebug(message)
     if DEBUG then
@@ -98,8 +98,8 @@ local function ModelBlockConstructor(partModels)
             end
 
         else
-        modelParams[#modelParams + 1] = string.format("    model %s\n    {\n        file = %s,\n        offset = %s %s %s,\n        scale = %s,\n    }", 
-            modelName, fileName, offsetX, offsetY, offsetZ, scale)
+            modelParams[#modelParams + 1] = string.format("    model %s\n    {\n        file = %s,\n        offset = %s %s %s,\n        rotate = %s %s %s,\n        scale = %s,\n    }", 
+                modelName, fileName, offset[1], offset[2], offset[3], rotate[1], rotate[2], rotate[3], scale)
         end
     end
     if #modelParams == 0 then

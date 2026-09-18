@@ -5,7 +5,7 @@ module Base
         DisplayCategory = VehicleArmour,
         Weight = 10.0,
         ItemType = base:normal,
-        Icon = icobullbar,
+        Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_Bullbar,
@@ -92,7 +92,7 @@ module Base
         DisplayCategory = VehicleArmour,
         Weight = 8.0,
         ItemType = base:normal,
-        Icon = icobullbar,
+        Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_Bullbar,
@@ -179,7 +179,7 @@ module Base
         DisplayCategory = VehicleArmour,
         Weight = 12.0,
         ItemType = base:normal,
-        Icon = icobullbar,
+        Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_Bullbar,
@@ -266,10 +266,10 @@ module Base
         DisplayCategory = VehicleArmour,
         Weight = 10.0,
         ItemType = base:normal,
-        Icon = icobullbar,
+        Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Light_Bullbar,
     }
     item Light_HoodArmour
     {
@@ -279,7 +279,7 @@ module Base
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Light_HoodArmour,
     }
     item Light_WindshieldArmour
     {
@@ -289,7 +289,7 @@ module Base
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Light_WindshieldArmour,
     }
     item Light_DoorArmour
     {
@@ -299,7 +299,7 @@ module Base
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Light_DoorFrontLeftArmour,
     }
     item Light_WindowArmour
     {
@@ -309,7 +309,7 @@ module Base
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Light_WindowFrontLeftArmour,
     }
     item Light_TrunkArmour
     {
@@ -319,7 +319,7 @@ module Base
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Light_TrunkArmour,
     }
     item Light_TruckBedCover
     {
@@ -343,7 +343,7 @@ module Base
         ConditionAffectsCapacity = false,
         MaxCapacity = 80,
         MechanicsItem = true,
-        WorldStaticModel = STORAGENAME,
+        WorldStaticModel = CarNormal_Light_RoofRack,
     }
 
 
@@ -353,10 +353,10 @@ module Base
         DisplayCategory = VehicleArmour,
         Weight = 15.0,
         ItemType = base:normal,
-        Icon = icobullbar,
+        Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Heavy_Bullbar,
     }
     item Heavy_HoodArmour
     {
@@ -366,7 +366,7 @@ module Base
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Heavy_HoodArmour,
     }
     item Heavy_WindshieldArmour
     {
@@ -376,7 +376,7 @@ module Base
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Heavy_WindshieldArmour,
     }
     item Heavy_DoorArmour
     {
@@ -386,7 +386,7 @@ module Base
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Heavy_DoorFrontLeftArmour,
     }
     item Heavy_WindowArmour
     {
@@ -396,7 +396,7 @@ module Base
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Heavy_WindowFrontLeftArmour,
     }
     item Heavy_TrunkArmour
     {
@@ -406,7 +406,7 @@ module Base
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
-        WorldStaticModel = ARMOURNAME,
+        WorldStaticModel = CarNormal_Heavy_TrunkArmour,
     }
     item Heavy_TruckBedCover
     {
@@ -430,7 +430,7 @@ module Base
         ConditionAffectsCapacity = false,
         MaxCapacity = 100,
         MechanicsItem = true,
-        WorldStaticModel = STORAGENAME,
+        WorldStaticModel = CarNormal_Heavy_RoofRack,
     }
 
 
@@ -484,7 +484,7 @@ module Base
     item ARMOURITEM
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 50.0,
         ItemType = base:normal,
         Icon = icoARMOURITEM,
         ConditionMax = 100,
@@ -494,12 +494,12 @@ module Base
     item STORAGEITEM
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 50.0,
         ItemType = base:normal,
         Icon = icoSTORAGEITEM,
         ConditionMax = 100,
         ConditionAffectsCapacity = false,
-        MaxCapacity = 100,
+        MaxCapacity = 10,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
     }
