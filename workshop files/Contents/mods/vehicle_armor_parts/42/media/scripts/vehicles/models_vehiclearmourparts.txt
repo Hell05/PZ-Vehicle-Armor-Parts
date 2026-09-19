@@ -435,6 +435,12 @@ module Base
 
 
 
+    model VAPFALLBACK
+    {
+        mesh = vehicles/Vehicles_ARMOURMODEL,
+        texture = Vehicles/Vehicles_vehiclearmourparts,
+        scale = 0.001,
+    }
     model ARMOURNAME
     {
         mesh = vehicles/Vehicles_ARMOURMODEL,

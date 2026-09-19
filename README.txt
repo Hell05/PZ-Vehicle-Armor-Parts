@@ -16,19 +16,18 @@ Done:
 - Create the items and recipes for all the armour parts
 - Repair script so parts can be fixed on the go
 - LUA update the injector to use part model offsets
+- Motorious support (parts exist and function but dont have textures or models)
 
 In Progress:
-- [ 75% DONE ] Offsetting the part models onto the different vehicle meshes themselves
-- Modelling / texturing (I have some help thankfully from chayeeneek, seriously thank you!)
+- [ 1st pass DONE ] Offsetting the part models onto the different vehicle meshes themselves
+- [ Wood, Bone, Scrap, Heavy mostly completed ] Modelling / texturing (I have some help thankfully from chayeeneek, seriously thank you!)
+- Testing on a locally hosted MP server as well as testing it with bolo loadout
 
 
 Things still on the to do list:
 - Prevent some parts being uninstalled when armour is present e.g. tires if tirechains
 - Drop Tirechain in the event of a blowout
-- Sandbox settings
 - Add recipe magazine (maybe)
-- Even more stress testing
-- Testing on a locally hosted MP server as well as testing it with bolo loadout
 - Investigate if we can bake engine condition repair into the mod (and other unfixable parts)
 - Swappable (or upgradeable) trunk capacity?
 - IF above possible make TruckBedCovers increase Trunk capacity instead of their own inventory
@@ -37,7 +36,7 @@ Things still on the to do list:
 - Roof lights
 - Attachable Tool Box to e.g. TruckBedOpen on pickups
 - Maybe a spray paint option?
-- Motorious support
+- Motorious support (textures and models)
 -
 -
 - Animating vanilla vehicles?

@@ -346,6 +346,7 @@ local function SetArmourModelVisible(part)
         installedModel = visuals[item:getFullType()] or false
     end
 
+    part:setModelVisible("VAPFALLBACK", false)
     if forceOverrideModelDEBUG then
         for _, modelName in pairs(visuals) do
             part:setModelVisible(modelName, true)

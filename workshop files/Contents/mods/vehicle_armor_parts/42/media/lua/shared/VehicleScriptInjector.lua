@@ -110,6 +110,34 @@ local function ModelBlockConstructor(partModels)
 end
 
 
+local function PartMapping(vehicle, script, partData)
+    if not vehicle or not partData then return end
+
+    -- if the vehicle has no part to hook the new part on AND no allowList then skip
+    if not partData.source
+        and not partData.allowList then return nil
+    end
+
+    -- check if any source parts are valid on the vehicle
+    local sourceExists = false
+    if partData.source then
+        for _, source in ipairs(partData.source) do
+            if script:getPartById(source) then
+                sourceExists = true
+                break
+            end
+        end
+    end
+
+    -- if the source parts don't exist exist AND the vehicle is not in the allowList then skip
+    if not sourceExists
+        and not ContainsKeyword(vehicle, partData.allowList) then return nil
+    end
+
+    -- add template pathing
+    return string.format("template = %s,", partData.pathing)
+end
+
 -- constructs all the template and part { model } blocks for the vehicle
 local function InjectionConstructor(vehicle, script)
 
@@ -125,26 +153,21 @@ local function InjectionConstructor(vehicle, script)
 
     for part, partData in pairs(lookuptable.armourTable) do
 
-        -- if vehicle has part to hook armour on then
-        if partData.source then
-            if script:getPartById(partData.source) then
-                -- create template reference for the armour part
-                vehicleParams[#vehicleParams + 1] = string.format("template = %s,", partData.pathing)
-            end
+        -- skip part if vehicle name is blacklisted
+        if not ContainsKeyword(vehicle, partData.blackList) then
 
-        -- or if it has an allowList then
-        elseif partData.allowList then
-            if not ContainsKeyword(vehicle, partData.blackList)
-                and ContainsKeyword(vehicle, partData.allowList) then
-                    vehicleParams[#vehicleParams + 1] = string.format("template = %s,", partData.pathing)
+            -- get template pathing
+            local partParam = PartMapping(vehicle, script, partData)
+            if partParam then
+                vehicleParams[#vehicleParams + 1] = partParam
 
-                    -- roofrack area injection for hitbox interaction
-                    if part == "Storage_RoofRack" then
-                        local roofAreaParam = AddRoofArea(script:getExtents())
-                        if roofAreaParam then
-                            vehicleParams[#vehicleParams + 1] = roofAreaParam
-                        end
+                -- roofrack area injection for hitbox interaction
+                if part == "Storage_RoofRack" then
+                    local roofAreaParam = AddRoofArea(script:getExtents())
+                    if roofAreaParam then
+                        vehicleParams[#vehicleParams + 1] = roofAreaParam
                     end
+                end
             end
         end
 

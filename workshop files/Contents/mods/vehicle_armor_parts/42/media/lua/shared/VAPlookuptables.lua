@@ -922,6 +922,7 @@ local modelInjectionLookup =
 
     family =
     {
+        -- Vanilla vehicles
         ["CarNormal"] = modelSets.CarNormal, -- windshield wants slight curve
         ["CarStationWagon"] =
         {
@@ -1157,6 +1158,11 @@ local modelInjectionLookup =
             Armour_WindowFrontRight  = nil, -- wants custom window
             Storage_RoofRack         = modelSets.CarLuxury.Storage_RoofRack, -- sportscar roofrack
         },
+
+        -- Motorious Zone Vehicle Pack modded vehicles
+        ["HQPanelVan"] = {},
+        ["85Vanagon"] = {},
+        ["VWT2T1Van"] = {},
     },
 }
 
@@ -1192,8 +1198,8 @@ local dmgPmulti = 0.5
 --            ["E.G. HeadlightRight"]       = {"Armour_LastHLRC",                       dmgPmulti / 5},
 --        },
 --        
---        source = "Engine",                            Vanilla refernce to the part you want to hook it to, CAN BE nil
---        pathing = "Armour/part/Armour_Bullbar",       pathing in template to be ADDED AS template = PATHING in runtime
+--        source = {"Engine"},                            Vanilla refernce to the part you want to hook it to, CAN BE nil
+--        pathing = "Armour/part/Armour_Bullbar",         pathing in template to be ADDED AS template = PATHING in runtime
 --        visuals = {
 --            ["Base.Wood_Bullbar"]  = "Wood_Bullbar",      ITEM to be installed as per TEMPLATE = "MODEL NAME TO BE LOADED"
 --            ["Base.Bone_Bullbar"]  = "Bone_Bullbar",      These control the hiding and reveling of the models based on what
@@ -1227,7 +1233,7 @@ local armourTable =
             ["Armour_Hood"]    = {"Armour_LastAHoodC", 1},
         },
 
-        source = "Engine",
+        source = {"Engine"},
         pathing = "Armour/part/Armour_Bullbar",
         visuals = {
             ["Base.Wood_Bullbar"]  = "Wood_Bullbar",
@@ -1245,7 +1251,7 @@ local armourTable =
             ["Engine"]     = {"Armour_LastEngineC", dmgPmulti},
         },
 
-        source = "EngineDoor",
+        source = {"EngineDoor"},
         pathing = "Armour/part/Armour_Hood",
         visuals = {
             ["Base.Wood_HoodArmour"]  = "Wood_HoodArmour",
@@ -1261,9 +1267,16 @@ local armourTable =
         protectionData = {
             ["TrunkDoor"] = {"Armour_LastTrunkDC", dmgPmulti},
             ["Trunk"]     = {"Armour_LastTrunkC", dmgPmulti},
+            ["TruckBedOpen"] = {"Armour_LastTruckBedOpenC", dmgPmulti},
         },
 
-        source = "TruckBed",
+        source = {
+            "TruckBed",
+            "TruckBedOpen",
+        },
+        blackList = {
+            "Trailer",
+        },
         pathing = "Armour/part/Armour_Trunk",
         visuals = {
             ["Base.Wood_TrunkArmour"]  = "Wood_TrunkArmour",
@@ -1280,7 +1293,7 @@ local armourTable =
             ["Windshield"] = {"Armour_LastWC", dmgPmulti},
         },
 
-        source = "Windshield",
+        source = {"Windshield"},
         pathing = "Armour/part/Armour_Windshield",
         visuals = {
             ["Base.Wood_WindshieldArmour"]  = "Wood_WindshieldArmour",
@@ -1297,7 +1310,7 @@ local armourTable =
             ["WindshieldRear"] = {"Armour_LastWRC", dmgPmulti},
         },
 
-        source = "WindshieldRear",
+        source = {"WindshieldRear"},
         pathing = "Armour/part/Armour_WindshieldRear",
         visuals = {
             ["Base.Wood_WindshieldArmour"]  = "Wood_WindshieldRearArmour",
@@ -1314,7 +1327,7 @@ local armourTable =
             ["DoorFrontLeft"] = {"Armour_LastDFLC", dmgPmulti},
         },
 
-        source = "DoorFrontLeft",
+        source = {"DoorFrontLeft"},
         pathing = "Armour/part/Armour_DoorFrontLeft",
         visuals = {
             ["Base.Wood_DoorArmour"]  = "Wood_DoorFrontLeftArmour",
@@ -1331,7 +1344,7 @@ local armourTable =
             ["DoorFrontRight"] = {"Armour_LastDFRC", dmgPmulti},
         },
 
-        source = "DoorFrontRight",
+        source = {"DoorFrontRight"},
         pathing = "Armour/part/Armour_DoorFrontRight",
         visuals = {
             ["Base.Wood_DoorArmour"]  = "Wood_DoorFrontRightArmour",
@@ -1348,7 +1361,7 @@ local armourTable =
             ["DoorRearLeft"] = {"Armour_LastDRLC", dmgPmulti},
         },
 
-        source = "DoorRearLeft",
+        source = {"DoorRearLeft"},
         pathing = "Armour/part/Armour_DoorRearLeft",
         visuals = {
             ["Base.Wood_DoorArmour"]  = "Wood_DoorRearLeftArmour",
@@ -1365,7 +1378,7 @@ local armourTable =
             ["DoorRearRight"] = {"Armour_LastDRRC", dmgPmulti},
         },
 
-        source = "DoorRearRight",
+        source = {"DoorRearRight"},
         pathing = "Armour/part/Armour_DoorRearRight",
         visuals = {
             ["Base.Wood_DoorArmour"]  = "Wood_DoorRearRightArmour",
@@ -1382,7 +1395,7 @@ local armourTable =
             ["DoorMiddleLeft"] = {"Armour_LastDMLC", dmgPmulti},
         },
 
-        source = "DoorMiddleLeft",
+        source = {"DoorMiddleLeft"},
         pathing = "Armour/part/Armour_DoorMiddleLeft",
         visuals = {
             ["Base.Wood_DoorArmour"]  = "Wood_DoorMiddleLeftArmour",
@@ -1399,7 +1412,7 @@ local armourTable =
             ["DoorMiddleRight"] = {"Armour_LastDMRC", dmgPmulti},
         },
 
-        source = "DoorMiddleRight",
+        source = {"DoorMiddleRight"},
         pathing = "Armour/part/Armour_DoorMiddleRight",
         visuals = {
             ["Base.Wood_DoorArmour"]  = "Wood_DoorMiddleRightArmour",
@@ -1416,7 +1429,7 @@ local armourTable =
             ["WindowFrontLeft"] = {"Armour_LastWFLC", dmgPmulti},
         },
 
-        source = "WindowFrontLeft",
+        source = {"WindowFrontLeft"},
         pathing = "Armour/part/Armour_WindowFrontLeft",
         visuals = {
             ["Base.Wood_WindowArmour"]  = "Wood_WindowFrontLeftArmour",
@@ -1433,7 +1446,7 @@ local armourTable =
             ["WindowFrontRight"] = {"Armour_LastWFRC", dmgPmulti},
         },
 
-        source = "WindowFrontRight",
+        source = {"WindowFrontRight"},
         pathing = "Armour/part/Armour_WindowFrontRight",
         visuals = {
             ["Base.Wood_WindowArmour"]  = "Wood_WindowFrontRightArmour",
@@ -1450,7 +1463,7 @@ local armourTable =
             ["WindowRearLeft"] = {"Armour_LastWRLC", dmgPmulti},
         },
 
-        source = "WindowRearLeft",
+        source = {"WindowRearLeft"},
         pathing = "Armour/part/Armour_WindowRearLeft",
         visuals = {
             ["Base.Wood_WindowArmour"]  = "Wood_WindowRearLeftArmour",
@@ -1467,7 +1480,7 @@ local armourTable =
             ["WindowRearRight"] = {"Armour_LastWRRC", dmgPmulti},
         },
 
-        source = "WindowRearRight",
+        source = {"WindowRearRight"},
         pathing = "Armour/part/Armour_WindowRearRight",
         visuals = {
             ["Base.Wood_WindowArmour"]  = "Wood_WindowRearRightArmour",
@@ -1484,7 +1497,7 @@ local armourTable =
             ["WindowMiddleLeft"] = {"Armour_LastWMLC", dmgPmulti},
         },
 
-        source = "WindowMiddleLeft",
+        source = {"WindowMiddleLeft"},
         pathing = "Armour/part/Armour_WindowMiddleLeft",
         visuals = {
             ["Base.Wood_WindowArmour"]  = "Wood_WindowMiddleLeftArmour",
@@ -1501,7 +1514,7 @@ local armourTable =
             ["WindowMiddleRight"] = {"Armour_LastWMRC", dmgPmulti},
         },
 
-        source = "WindowMiddleRight",
+        source = {"WindowMiddleRight"},
         pathing = "Armour/part/Armour_WindowMiddleRight",
         visuals = {
             ["Base.Wood_WindowArmour"]  = "Wood_WindowMiddleRightArmour",
@@ -1516,9 +1529,17 @@ local armourTable =
     {
         protectionData = {
             ["TrailerTrunk"] = {"Armour_LastTrailerTrunkC", dmgPmulti},
+            ["TrunkDoor"] = {"Armour_LastTrailerTrunkDoorC", dmgPmulti},
+            ["Trunk"] = {"Armour_LastTrailerTrunkC", dmgPmulti},
+            ["TruckBedOpen"] = {"Armour_LastTrailerTruckBedOpenC", dmgPmulti},
         },
 
-        source = "TrailerTrunk",
+        source = {"TrailerTrunk"},
+        allowList = {
+            "Trailer51chevy",
+            "Trailercamper",
+            "Trailermoving",
+        },
         pathing = "Armour/part/Armour_Trailer",
         visuals = {
             ["Base.Light_TrailerArmour"] = "Light_TrailerArmour",
@@ -1532,7 +1553,7 @@ local armourTable =
             ["TireFrontLeft"] = {"Armour_LastTFLC", dmgPmulti},
         },
 
-        source = "TireFrontLeft",
+        source = {"TireFrontLeft"},
         pathing = "TireChains/part/TireChainFrontLeft",
         visuals = {
             ["Base.Light_TireChain"] = "Light_TireChainFrontLeft",
@@ -1546,7 +1567,7 @@ local armourTable =
             ["TireFrontRight"] = {"Armour_LastTFRC", dmgPmulti},
         },
 
-        source = "TireFrontRight",
+        source = {"TireFrontRight"},
         pathing = "TireChains/part/TireChainFrontRight",
         visuals = {
             ["Base.Light_TireChain"] = "Light_TireChainFrontRight",
@@ -1560,7 +1581,7 @@ local armourTable =
             ["TireRearLeft"] = {"Armour_LastTRLC", dmgPmulti},
         },
 
-        source = "TireRearLeft",
+        source = {"TireRearLeft"},
         pathing = "TireChains/part/TireChainRearLeft",
         visuals = {
             ["Base.Light_TireChain"] = "Light_TireChainRearLeft",
@@ -1574,7 +1595,7 @@ local armourTable =
             ["TireRearRight"] = {"Armour_LastTRRC", dmgPmulti},
         },
 
-        source = "TireRearRight",
+        source = {"TireRearRight"},
         pathing = "TireChains/part/TireChainRearRight",
         visuals = {
             ["Base.Light_TireChain"] = "Light_TireChainRearRight",
@@ -1586,7 +1607,11 @@ local armourTable =
     {
         protectionData = nil,
 
-        source = "TruckBedOpen",
+        source = {"TruckBedOpen"},
+        blackList = {
+            "Trailercamper",
+            "Trailermoving",
+        },
         pathing = "Storage/part/Storage_TruckBedCover",
         visuals = {
             ["Base.Wood_TruckBedCover"]  = "Wood_TruckBedCover",
@@ -1603,6 +1628,7 @@ local armourTable =
 
         source = nil,
         allowList = {
+            -- Vanilla vehicles
             "CarStationWagon",
             "SportsCar",
             "SmallCar",
@@ -1619,10 +1645,78 @@ local armourTable =
             "RaceCar",
             "Trailer_Horsebox",
             "Trailer_Livestock",
+
+            -- RVs, Heavy Duty & Trailers modded vehicles
+            "Trailercamper",
+            "Trailermoving",
+            "86econolinerv",
+            "ambulance",
+            "86bounder",
+            "astrovan",
+            "chevystepvan",
+            "moveurself",
+            "isuzubox",
+            "general",
+
+            -- Motorious Zone Vehicle Pack modded vehicles
+            "fhq",
+
         },
         blackList = {
+            -- Vanilla vehicles
             "VanRadio",
             "CarLights",
+
+            -- RVs, Heavy Duty & Trailers modded vehicles
+            "isuzuboxmccoy",
+
+            -- Motorious Zone Vehicle Pack modded vehicles
+            "240SXCabrio",
+            "250GTO",
+            "300ZXZ32",
+            "4Daytona",
+            "57BelAirKSP",
+            "57BelAirPolice",
+            "70Porsche914",
+            "78BRAT",
+            "78Scirocco",
+            "83PulsarNX",
+            "Taxi",
+            "93Ranger",
+            "AZ1",
+            "Beat",
+            "BroncoHalfCab",
+            "Cappuccino",
+            "Cara",
+            "CelicaT180Cabrio",
+            "Countach",
+            "Diablo",
+            "FBMustangHatchSSPLightbar",
+            "FBMustangLXCabrio",
+            "FBMustangSSPLightbar",
+            "FBMustangU2",
+            "Fiero",
+            "G4Coupe",
+            "GT40",
+            "HQSandmanUte",
+            "HQUte",
+            "Infj30",
+            "LeCarPolice",
+            "LexusLS400",
+            "M715CCivMZ",
+            "M715MZ",
+            "MX5NA",
+            "McLarenF1",
+            "NSX",
+            "NX2000",
+            "R32GTRPace",
+            "RX7FB_C",
+            "RX7FB_GSL",
+            "Stratos",
+            "SupraMkIV",
+            "V140_",
+            "VWT2T1Truck",
+            "W140_",
         },
         pathing = "Storage/part/Storage_RoofRack",
         visuals = {
