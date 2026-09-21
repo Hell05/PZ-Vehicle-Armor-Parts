@@ -307,7 +307,6 @@ module Base
 				{
                 	file = VAPFALLBACK,
 				}
-            category = bodywork,
             specificItem = false,
             mechanicRequireKey = false,
             container

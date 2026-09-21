@@ -1,0 +1,61 @@
+VERSION = 1,
+
+option VAP.VanillaDamagePercent
+{
+    type = integer,
+    default = 50,
+    min = 0,
+    max = 100,
+    page = VehicleArmourParts,
+    translation = VAP_VanillaDamagePercent,
+}
+
+option VAP.WoodDurability
+{
+    type = integer,
+    default = 50,
+    min = 0,
+    max = 500,
+    page = VehicleArmourParts,
+    translation = VAP_WoodDurability,
+}
+
+option VAP.BoneDurability
+{
+    type = integer,
+    default = 100,
+    min = 0,
+    max = 500,
+    page = VehicleArmourParts,
+    translation = VAP_BoneDurability,
+}
+
+option VAP.ScrapDurability
+{
+    type = integer,
+    default = 100,
+    min = 0,
+    max = 500,
+    page = VehicleArmourParts,
+    translation = VAP_ScrapDurability,
+}
+
+option VAP.LightDurability
+{
+    type = integer,
+    default = 175,
+    min = 0,
+    max = 500,
+    page = VehicleArmourParts,
+    translation = VAP_LightDurability,
+}
+
+option VAP.HeavyDurability
+{
+    type = integer,
+    default = 250,
+    min = 0,
+    max = 500,
+    page = VehicleArmourParts,
+    translation = VAP_HeavyDurability,
+}

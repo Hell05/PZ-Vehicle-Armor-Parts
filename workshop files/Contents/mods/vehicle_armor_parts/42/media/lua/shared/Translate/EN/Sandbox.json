@@ -1,0 +1,17 @@
+{
+    "Sandbox_VehicleArmourParts": "Vehicle Armor Parts",
+
+    "Sandbox_VAP_VanillaDamagePercent": "Vanilla Damage Percent",
+    "Sandbox_VAP_VanillaDamagePercent_tooltip": "How much vanilla damage should apply to the armor (50% means armor is 2x as durable as the base part its protecting)",
+
+    "Sandbox_VAP_WoodDurability": "Wood Armor Type Durability",
+    "Sandbox_VAP_WoodDurability_tooltip": "An additional multiplier to the global part durability, default is 75 meaning vanilla damage x 75%",
+    "Sandbox_VAP_BoneDurability": "Bone Armor Type Durability",
+    "Sandbox_VAP_BoneDurability_tooltip": "An additional multiplier to the global part durability, default is 100 meaning vanilla damage x 100%",
+    "Sandbox_VAP_ScrapDurability": "Scrap Armor Type Durability",
+    "Sandbox_VAP_ScrapDurability_tooltip": "An additional multiplier to the global part durability, default is 100 meaning vanilla damage x 100%",
+    "Sandbox_VAP_LightDurability": "Light Armor Type Durability",
+    "Sandbox_VAP_LightDurability_tooltip": "An additional multiplier to the global part durability, default is 175 meaning vanilla damage x 175%",
+    "Sandbox_VAP_HeavyDurability": "Heavy Armor Type Durability",
+    "Sandbox_VAP_HeavyDurability_tooltip": "An additional multiplier to the global part durability, default is 250 meaning vanilla damage x 250%"
+}
