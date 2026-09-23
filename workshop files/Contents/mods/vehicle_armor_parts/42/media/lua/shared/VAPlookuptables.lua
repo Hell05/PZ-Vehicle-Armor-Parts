@@ -144,6 +144,27 @@ local modelSets =
             {"Light_RoofRack", "CarNormal_Light_RoofRack", {0.0, 0.313, -0.17}, rotateZ, scaleZ},
             {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack", {0.0, 0.341, -0.176}, rotateZ, scaleZ},
         },
+
+        ["TireChainFrontLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+            {"Heavy_TireChain",  "Heavy_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+        },
+        ["TireChainFrontRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+            {"Heavy_TireChain",  "Heavy_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+        },
+        ["TireChainRearLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+            {"Heavy_TireChain",  "Heavy_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+            {"Heavy_TireChain",  "Heavy_TireChain", {0.0, 0.0, 0.0}, rotateZ, scaleZ},
+        },
     },
     ["CarStationWagon"] =
     {
@@ -942,6 +963,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = modelSets.CarNormal.Armour_WindowRearLeft,
             Armour_WindowRearRight   = modelSets.CarNormal.Armour_WindowRearRight,
             Storage_RoofRack         = nil, -- wants 2x length roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["PickUpTruck"] =
         {
@@ -957,6 +982,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = modelSets.PickUpTruck.Armour_WindowFrontLeft,
             Armour_WindowFrontRight  = modelSets.PickUpTruck.Armour_WindowFrontRight,
             Storage_TruckBedCover    = nil, -- wants TruckBedCover
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["PickUpVan"] =
         {
@@ -972,6 +1001,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = modelSets.PickUpTruck.Armour_WindowFrontLeft,
             Armour_WindowFrontRight  = modelSets.PickUpTruck.Armour_WindowFrontRight,
             Storage_RoofRack         = nil, -- wants 1.5x length roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["Van"] =
         {
@@ -991,6 +1024,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = nil, -- flat window
             Armour_WindowRearRight   = nil, -- flat window
             Storage_RoofRack         = nil, -- wants 2x length roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["StepVan"] =
         {
@@ -1006,6 +1043,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = nil, -- flat window
             Armour_WindowFrontRight  = nil, -- flat window
             Storage_RoofRack         = nil, -- wants 2x length roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["SportsCar"] =
         {
@@ -1021,6 +1062,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = nil, -- custom window
             Armour_WindowFrontRight  = nil, -- custom window
             Storage_RoofRack         = modelSets.SportsCar.Storage_RoofRack, -- wants version with less slats since it gets scaled down
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["SmallCar"] =
         {
@@ -1038,6 +1083,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = modelSets.SmallCar.Armour_WindowRearLeft,
             Armour_WindowRearRight   = modelSets.SmallCar.Armour_WindowRearRight,
             Storage_RoofRack         = modelSets.SmallCar.Storage_RoofRack, -- sportscar roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["SmallCar02"] =
         {
@@ -1053,6 +1102,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = modelSets.SmallCar02.Armour_WindowFrontLeft,
             Armour_WindowFrontRight  = modelSets.SmallCar02.Armour_WindowFrontRight,
             Storage_RoofRack         = modelSets.SmallCar02.Storage_RoofRack, -- sportscar roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["ModernCar"] =
         {
@@ -1072,6 +1125,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = modelSets.CarNormal.Armour_WindowRearLeft,
             Armour_WindowRearRight   = modelSets.CarNormal.Armour_WindowRearRight,
             Storage_RoofRack         = modelSets.ModernCar.Storage_RoofRack, -- sportscar roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["ModernCar02"] =
         {
@@ -1091,6 +1148,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = modelSets.CarNormal.Armour_WindowRearLeft,
             Armour_WindowRearRight   = modelSets.CarNormal.Armour_WindowRearRight,
             Storage_RoofRack         = modelSets.ModernCar02.Storage_RoofRack, -- sportscar roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["OffRoad"] =
         {
@@ -1108,6 +1169,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = modelSets.OffRoad.Armour_WindowRearLeft,
             Armour_WindowRearRight   = modelSets.OffRoad.Armour_WindowRearRight,
             Storage_RoofRack         = modelSets.OffRoad.Storage_RoofRack,
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["SUV"] =
         {
@@ -1127,6 +1192,10 @@ local modelInjectionLookup =
             Armour_WindowRearLeft    = modelSets.SUV.Armour_WindowRearLeft,
             Armour_WindowRearRight   = modelSets.SUV.Armour_WindowRearRight,
             Storage_RoofRack         = nil, -- wants 1.5x length roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["RaceCar"] =
         {
@@ -1142,6 +1211,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = nil, -- wants maybe custom window
             Armour_WindowFrontRight  = nil, -- wants maybe custom window
             Storage_RoofRack         = modelSets.CarNormal.Storage_RoofRack,
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
         ["CarLuxury"] =
         {
@@ -1157,6 +1230,10 @@ local modelInjectionLookup =
             Armour_WindowFrontLeft   = nil, -- wants custom window
             Armour_WindowFrontRight  = nil, -- wants custom window
             Storage_RoofRack         = modelSets.CarLuxury.Storage_RoofRack, -- sportscar roofrack
+            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
+            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
+            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
+            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
         },
 
         -- Motorious Zone Vehicle Pack modded vehicles
@@ -1561,8 +1638,8 @@ local function reloadLookupTables()
             source = {"TireFrontLeft"},
             pathing = "TireChains/part/TireChainFrontLeft",
             visuals = {
-                ["Base.Light_TireChain"] = "Light_TireChainFrontLeft",
-                ["Base.Heavy_TireChain"] = "Heavy_TireChainFrontLeft",
+                ["Base.Light_TireChain"] = "Light_TireChain",
+                ["Base.Heavy_TireChain"] = "Heavy_TireChain",
             },
         },
 
@@ -1575,8 +1652,8 @@ local function reloadLookupTables()
             source = {"TireFrontRight"},
             pathing = "TireChains/part/TireChainFrontRight",
             visuals = {
-                ["Base.Light_TireChain"] = "Light_TireChainFrontRight",
-                ["Base.Heavy_TireChain"] = "Heavy_TireChainFrontRight",
+                ["Base.Light_TireChain"] = "Light_TireChain",
+                ["Base.Heavy_TireChain"] = "Heavy_TireChain",
             },
         },
 
@@ -1589,8 +1666,8 @@ local function reloadLookupTables()
             source = {"TireRearLeft"},
             pathing = "TireChains/part/TireChainRearLeft",
             visuals = {
-                ["Base.Light_TireChain"] = "Light_TireChainRearLeft",
-                ["Base.Heavy_TireChain"] = "Heavy_TireChainRearLeft",
+                ["Base.Light_TireChain"] = "Light_TireChain",
+                ["Base.Heavy_TireChain"] = "Heavy_TireChain",
             },
         },
 
@@ -1603,8 +1680,8 @@ local function reloadLookupTables()
             source = {"TireRearRight"},
             pathing = "TireChains/part/TireChainRearRight",
             visuals = {
-                ["Base.Light_TireChain"] = "Light_TireChainRearRight",
-                ["Base.Heavy_TireChain"] = "Heavy_TireChainRearRight",
+                ["Base.Light_TireChain"] = "Light_TireChain",
+                ["Base.Heavy_TireChain"] = "Heavy_TireChain",
             },
         },
 

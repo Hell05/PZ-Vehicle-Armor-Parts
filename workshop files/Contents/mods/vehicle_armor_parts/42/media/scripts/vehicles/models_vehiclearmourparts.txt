@@ -435,6 +435,21 @@ module Base
 
 
 
+    model Light_TireChain
+    {
+        mesh = vehicles/Vehicles_tirechain,
+        texture = Vehicles/Vehicles_puv_parts,
+        scale = 1,
+    }
+    model Heavy_TireChain
+    {
+        mesh = vehicles/Vehicles_tirechain,
+        texture = Vehicles/Vehicles_puv_parts,
+        scale = 1,
+    }
+
+
+
     model VAPFALLBACK
     {
         mesh = vehicles/Vehicles_ARMOURMODEL,

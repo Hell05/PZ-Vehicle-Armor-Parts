@@ -18,7 +18,7 @@ local lookuptable = require("VAPlookuptables")
 -- ============================================================================
 
 
-local DEBUG = true
+local DEBUG = false
 local forceOverrideModelDEBUG = false
 
 local function VAPDebug(message)
