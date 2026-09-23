@@ -169,18 +169,18 @@ local function InjectionConstructor(vehicle, script)
                     end
                 end
             end
-        end
 
-        -- if vehicle has model Support
-        if vehicleModelData then
-            local partModels = vehicleModelData[part]
-            if partModels then
-                -- create the model blocks for the part types
-                local modelParams = ModelBlockConstructor(partModels)
+            -- if vehicle has model Support
+            if vehicleModelData then
+                local partModels = vehicleModelData[part]
+                if partModels then
+                    -- create the model blocks for the part types
+                    local modelParams = ModelBlockConstructor(partModels)
 
-                -- create a part block for the vehicle
-                if modelParams then
-                    vehicleParams[#vehicleParams + 1]  = string.format("part %s\n{\n%s\n}\n", part, modelParams)
+                    -- create a part block for the vehicle
+                    if modelParams then
+                        vehicleParams[#vehicleParams + 1]  = string.format("part %s\n{\n%s\n}\n", part, modelParams)
+                    end
                 end
             end
         end

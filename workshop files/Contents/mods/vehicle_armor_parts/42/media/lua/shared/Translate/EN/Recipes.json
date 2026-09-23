@@ -47,8 +47,5 @@
     "MakeLight_TireChain": "Weld Light Tire Chain",
     "MakeHeavy_TireChain": "Forge Heavy Tire Chain",
     "MakeLight_TrailerArmour": "Weld Light Trailer Armor",
-    "MakeHeavy_TrailerArmour": "Forge Heavy Trailer Armor",
-
-    "MakeARMOURITEM": "Make ARMOURITEM",
-    "MakeSTORAGEITEM": "Make STORAGEITEM"
+    "MakeHeavy_TrailerArmour": "Forge Heavy Trailer Armor"
 }

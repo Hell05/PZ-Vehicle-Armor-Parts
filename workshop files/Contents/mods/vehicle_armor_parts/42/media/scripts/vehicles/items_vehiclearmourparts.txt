@@ -3,67 +3,73 @@ module Base
     item Wood_Bullbar
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_Bullbar,
+        Tooltip = Tooltip_item_Bullbar,
     }
     item Wood_HoodArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_HoodArmour,
+        Tooltip = Tooltip_item_HoodArmour,
     }
     item Wood_WindshieldArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_WindshieldArmour,
+        Tooltip = Tooltip_item_WindshieldArmour,
     }
     item Wood_DoorArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_DoorFrontLeftArmour,
+        Tooltip = Tooltip_item_DoorArmour,
     }
     item Wood_WindowArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_WindowFrontLeftArmour,
+        Tooltip = Tooltip_item_WindowArmour,
     }
     item Wood_TrunkArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoWood,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_TrunkArmour,
+        Tooltip = Tooltip_item_TrunkArmour,
     }
     item Wood_TruckBedCover
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -71,11 +77,12 @@ module Base
         MaxCapacity = 20,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
+        Tooltip = Tooltip_item_TruckBedCover,
     }
     item Wood_RoofRack
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -83,6 +90,7 @@ module Base
         MaxCapacity = 20,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Wood_RoofRack,
+        Tooltip = Tooltip_item_RoofRack,
     }
 
 
@@ -90,67 +98,73 @@ module Base
     item Bone_Bullbar
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_Bullbar,
+        Tooltip = Tooltip_item_Bullbar,
     }
     item Bone_HoodArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_HoodArmour,
+        Tooltip = Tooltip_item_HoodArmour,
     }
     item Bone_WindshieldArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_WindshieldArmour,
+        Tooltip = Tooltip_item_WindshieldArmour,
     }
     item Bone_DoorArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_DoorFrontLeftArmour,
+        Tooltip = Tooltip_item_DoorArmour,
     }
     item Bone_WindowArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_WindowFrontLeftArmour,
+        Tooltip = Tooltip_item_WindowArmour,
     }
     item Bone_TrunkArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoBone,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_TrunkArmour,
+        Tooltip = Tooltip_item_TrunkArmour,
     }
     item Bone_TruckBedCover
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -158,11 +172,12 @@ module Base
         MaxCapacity = 40,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
+        Tooltip = Tooltip_item_TruckBedCover,
     }
     item Bone_RoofRack
     {
         DisplayCategory = VehicleArmour,
-        Weight = 8.0,
+        Weight = 1.5,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -170,6 +185,7 @@ module Base
         MaxCapacity = 40,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Bone_RoofRack,
+        Tooltip = Tooltip_item_RoofRack,
     }
 
 
@@ -177,67 +193,73 @@ module Base
     item Scrap_Bullbar
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_Bullbar,
+        Tooltip = Tooltip_item_Bullbar,
     }
     item Scrap_HoodArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_HoodArmour,
+        Tooltip = Tooltip_item_HoodArmour,
     }
     item Scrap_WindshieldArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_WindshieldArmour,
+        Tooltip = Tooltip_item_WindshieldArmour,
     }
     item Scrap_DoorArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_DoorFrontLeftArmour,
+        Tooltip = Tooltip_item_DoorArmour,
     }
     item Scrap_WindowArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_WindowFrontLeftArmour,
+        Tooltip = Tooltip_item_WindowArmour,
     }
     item Scrap_TrunkArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoScrap,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_TrunkArmour,
+        Tooltip = Tooltip_item_TrunkArmour,
     }
     item Scrap_TruckBedCover
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -245,11 +267,12 @@ module Base
         MaxCapacity = 60,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
+        Tooltip = Tooltip_item_TruckBedCover,
     }
     item Scrap_RoofRack
     {
         DisplayCategory = VehicleArmour,
-        Weight = 12.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -257,6 +280,7 @@ module Base
         MaxCapacity = 60,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Scrap_RoofRack,
+        Tooltip = Tooltip_item_RoofRack,
     }
 
 
@@ -264,67 +288,73 @@ module Base
     item Light_Bullbar
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_Bullbar,
+        Tooltip = Tooltip_item_Bullbar,
     }
     item Light_HoodArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_HoodArmour,
+        Tooltip = Tooltip_item_HoodArmour,
     }
     item Light_WindshieldArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_WindshieldArmour,
+        Tooltip = Tooltip_item_WindshieldArmour,
     }
     item Light_DoorArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_DoorFrontLeftArmour,
+        Tooltip = Tooltip_item_DoorArmour,
     }
     item Light_WindowArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_WindowFrontLeftArmour,
+        Tooltip = Tooltip_item_WindowArmour,
     }
     item Light_TrunkArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_TrunkArmour,
+        Tooltip = Tooltip_item_TrunkArmour,
     }
     item Light_TruckBedCover
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -332,11 +362,12 @@ module Base
         MaxCapacity = 80,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
+        Tooltip = Tooltip_item_TruckBedCover,
     }
     item Light_RoofRack
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -344,6 +375,7 @@ module Base
         MaxCapacity = 80,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Light_RoofRack,
+        Tooltip = Tooltip_item_RoofRack,
     }
 
 
@@ -351,67 +383,73 @@ module Base
     item Heavy_Bullbar
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_Bullbar,
+        Tooltip = Tooltip_item_Bullbar,
     }
     item Heavy_HoodArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_HoodArmour,
+        Tooltip = Tooltip_item_HoodArmour,
     }
     item Heavy_WindshieldArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_WindshieldArmour,
+        Tooltip = Tooltip_item_WindshieldArmour,
     }
     item Heavy_DoorArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_DoorFrontLeftArmour,
+        Tooltip = Tooltip_item_DoorArmour,
     }
     item Heavy_WindowArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_WindowFrontLeftArmour,
+        Tooltip = Tooltip_item_WindowArmour,
     }
     item Heavy_TrunkArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_TrunkArmour,
+        Tooltip = Tooltip_item_TrunkArmour,
     }
     item Heavy_TruckBedCover
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -419,11 +457,12 @@ module Base
         MaxCapacity = 100,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
+        Tooltip = Tooltip_item_TruckBedCover,
     }
     item Heavy_RoofRack
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoStorage,
         ConditionMax = 100,
@@ -431,6 +470,7 @@ module Base
         MaxCapacity = 100,
         MechanicsItem = true,
         WorldStaticModel = CarNormal_Heavy_RoofRack,
+        Tooltip = Tooltip_item_RoofRack,
     }
 
 
@@ -438,22 +478,24 @@ module Base
     item Light_TireChain
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = Light_TireChain,
+        Tooltip = Tooltip_item_TireChain,
     }
     item Heavy_TireChain
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = Heavy_TireChain,
+        Tooltip = Tooltip_item_TireChain,
     }
 
 
@@ -461,22 +503,24 @@ module Base
     item Light_TrailerArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 10.0,
+        Weight = 2.0,
         ItemType = base:normal,
         Icon = icoLight,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = ARMOURNAME,
+        Tooltip = Tooltip_item_TrailerArmour,
     }
     item Heavy_TrailerArmour
     {
         DisplayCategory = VehicleArmour,
-        Weight = 15.0,
+        Weight = 3.0,
         ItemType = base:normal,
         Icon = icoHeavy,
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = ARMOURNAME,
+        Tooltip = Tooltip_item_TrailerArmour,
     }
 
 
@@ -490,6 +534,7 @@ module Base
         ConditionMax = 100,
         MechanicsItem = true,
         WorldStaticModel = ARMOURNAME,
+        Tooltip = Tooltip_item_DEBUG,
     }
     item STORAGEITEM
     {
@@ -502,5 +547,6 @@ module Base
         MaxCapacity = 10,
         MechanicsItem = true,
         WorldStaticModel = STORAGENAME,
+        Tooltip = Tooltip_item_DEBUG,
     }
 }

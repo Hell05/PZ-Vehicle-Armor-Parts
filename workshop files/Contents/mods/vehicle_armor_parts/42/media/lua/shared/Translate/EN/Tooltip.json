@@ -1,0 +1,15 @@
+{
+    "Tooltip_item_Bullbar": "Can be installed to protect the front of the vehicle <br>Protects: [Headlights, Hood & Engine]",
+    "Tooltip_item_HoodArmour": "Can be installed to protect the engine bay <br>Protects: [Hood & Engine]",
+    "Tooltip_item_WindshieldArmour": "Can be installed to protect a vehicle windshield <br>Compatible: (Front or Rear)",
+    "Tooltip_item_DoorArmour": "Can be installed to protect a vehicle door <br>Compatible: (Left or Right, Front, Middle or Rear)",
+    "Tooltip_item_WindowArmour": "Can be installed to protect a vehicle window <br>Compatible: (Left or Right, Front, Middle or Rear) <br>Does not (Currently) prevent injury through open window",
+    "Tooltip_item_TrunkArmour": "Can be installed to protect the trunk of a vehicle <br>Protects: [Trunk Lid & Trunk / TruckBed]",
+    "Tooltip_item_TruckBedCover": "Can be installed on the truck beds of compatible vehicles to expand the storage capacity of the vehicle <br>(Better tiers have bigger capacity)",
+    "Tooltip_item_RoofRack": "Can be installed on the roof of compatible vehicles to expand the storage capacity of the vehicle <br>(Better tiers have bigger capacity)",
+
+    "Tooltip_item_TireChain": "Can be installed to protect a vehicle wheel <br>Compatible: (Left or Right, Front or Rear)",
+    "Tooltip_item_TrailerArmour": "Can be installed on the frame of compatible trailers to protect them from damage <br>Protects: [TrunkLid & Trailer Trunk]",
+
+    "Tooltip_item_DEBUG": "This is a DEBUG item, if you are seeing this then something is probably broken"
+}

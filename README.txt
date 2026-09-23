@@ -17,6 +17,7 @@ Done:
 - Repair script so parts can be fixed on the go
 - LUA update the injector to use part model offsets
 - Motorious support (parts exist and function but dont have textures or models)
+- Sandbox Options
 
 In Progress:
 - [ 1st pass DONE ] Offsetting the part models onto the different vehicle meshes themselves
@@ -27,9 +28,11 @@ In Progress:
 Things still on the to do list:
 - Prevent some parts being uninstalled when armour is present e.g. tires if tirechains
 - Drop Tirechain in the event of a blowout
+- Make window armour protect player in the event the window is open or broken / missing. (Allow shooting though on compatible models)
 - Add recipe magazine (maybe)
 - Investigate if we can bake engine condition repair into the mod (and other unfixable parts)
 - Swappable (or upgradeable) trunk capacity?
+- Roofrack size depending on vehicle type / trunk capacity
 - IF above possible make TruckBedCovers increase Trunk capacity instead of their own inventory
 - Animate RoofRack / TruckBedOpen storage like Furniture Shelves have based on fullness
 - Plows
