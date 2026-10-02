@@ -1,3 +1,5 @@
+# PZ-Vehicle-Armor-Parts
+
 A WIP mod that adds installable vehicle armor parts to vehicles
 
 Done:
@@ -53,3 +55,5 @@ The assets, code and everything in this mod is original and created by hand howe
 This mod was created primarily for SpaghettiZ's Bolognese server but anyone is welcome to use it and repack it in their own server mods.
 
 Join Bolognese here - https://discord.gg/fhbA3vnrr9
+
+Workshop link - https://steamcommunity.com/sharedfiles/filedetails/?id=3798991339
