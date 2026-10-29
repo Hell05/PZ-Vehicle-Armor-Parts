@@ -9,9 +9,9 @@
 local lookuptable = require("VAPlookuptables")
 
 local DEBUG = false
-local forceOverrideModelDEBUG = false
-local forceOMDEBUGvehicle = nil -- "CarNormal"
-local forceOMDEBUGtier = nil -- {"Heavy"}
+local forceOverrideModelDEBUG = true
+local forceOMDEBUGvehicle = "Van"
+local forceOMDEBUGtier = {"Heavy"}
 
 local function VAPDebug(message)
     if DEBUG then
@@ -82,24 +82,17 @@ local function ModelBlockConstructor(partModels)
     for _, data in ipairs(partModels) do
         local modelName = data[1]
         local fileName  = data[2]
-        local offset    = data[3]
-        local rotate    = data[4]
-        local scale     = data[5]
-
-        if not rotate then
-            rotate = {0.0, 0.0, 0.0}
-        end
 
         -- force a single tier of model to show only
         if forceOverrideModelDEBUG then
             if ContainsKeyword(modelName, forceOMDEBUGtier) then
-                modelParams[#modelParams + 1] = string.format("    model %s\n    {\n        file = %s,\n        offset = %s %s %s,\n        rotate = %s %s %s,\n        scale = %s,\n    }", 
-                    modelName, fileName, offset[1], offset[2], offset[3], rotate[1], rotate[2], rotate[3], scale)
+                modelParams[#modelParams + 1] = string.format("    model %s\n    {\n        file = %s,\n    }",
+                    modelName, fileName)
             end
 
         else
-            modelParams[#modelParams + 1] = string.format("    model %s\n    {\n        file = %s,\n        offset = %s %s %s,\n        rotate = %s %s %s,\n        scale = %s,\n    }", 
-                modelName, fileName, offset[1], offset[2], offset[3], rotate[1], rotate[2], rotate[3], scale)
+            modelParams[#modelParams + 1] = string.format("    model %s\n    {\n        file = %s,\n    }",
+                modelName, fileName)
         end
     end
     if #modelParams == 0 then
