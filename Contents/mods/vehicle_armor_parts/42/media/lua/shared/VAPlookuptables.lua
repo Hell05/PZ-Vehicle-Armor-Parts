@@ -165,98 +165,71 @@ local modelSets =
     },
     ["CarStationWagon"] =
     {
-        ["Armour_WindshieldRear"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainFrontRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["PickUpTruck"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Hood"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour"},
-            {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour"},
-            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour"},
-            {"Light_HoodArmour", "CarNormal_Light_HoodArmour"},
-            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
-        },
-
-        ["Armour_DoorFrontLeft"] =
-        {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Armour_WindowFrontLeft"] =
-        {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour"},
-            {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour"},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour"},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour"},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour"},
-        },
-
-        ["Armour_WindowFrontRight"] =
-        {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour"},
-            {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour"},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour"},
-            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour"},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["PickUpVan"] =
     {
-        ["Armour_WindshieldRear"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainFrontRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["Van"] =
@@ -350,628 +323,256 @@ local modelSets =
             {"Light_RoofRack", "Van_Light_RoofRack"},
             {"Heavy_RoofRack", "Van_Heavy_RoofRack"},
         },
+
+        ["TireChainFrontLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainFrontRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
     },
     ["StepVan"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainFrontRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearLeft"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["SportsCar"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Storage_RoofRack"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["SmallCar"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_DoorFrontLeft"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Armour_WindowFrontLeft"] =
-        {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour"},
-            {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour"},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour"},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour"},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour"},
-        },
-
-        ["Armour_WindowFrontRight"] =
-        {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour"},
-            {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour"},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour"},
-            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour"},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour"},
-        },
-
-        ["Armour_WindowRearLeft"] =
-        {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour"},
-            {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour"},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour"},
-            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour"},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour"},
-        },
-
-        ["Armour_WindowRearRight"] =
-        {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour"},
-            {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour"},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour"},
-            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour"},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour"},
-        },
-
-        ["Storage_RoofRack"] =
-        {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["SmallCar02"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_DoorFrontLeft"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Armour_WindowFrontLeft"] =
-        {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour"},
-            {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour"},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour"},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour"},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour"},
-        },
-
-        ["Armour_WindowFrontRight"] =
-        {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour"},
-            {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour"},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour"},
-            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour"},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour"},
-        },
-
-        ["Storage_RoofRack"] =
-        {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["ModernCar"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_DoorFrontLeft"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Armour_DoorRearLeft"] =
-        {
-            {"Wood_DoorRearLeftArmour",  "CarNormal_Wood_DoorRearLeftArmour"},
-            {"Bone_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour"},
-            {"Scrap_DoorRearLeftArmour", "CarNormal_Scrap_DoorRearLeftArmour"},
-            {"Light_DoorRearLeftArmour", "CarNormal_Light_DoorRearLeftArmour"},
-            {"Heavy_DoorRearLeftArmour", "CarNormal_Heavy_DoorRearLeftArmour"},
-        },
-
-        ["Armour_DoorRearRight"] =
-        {
-            {"Wood_DoorRearRightArmour",  "CarNormal_Wood_DoorRearRightArmour"},
-            {"Bone_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour"},
-            {"Scrap_DoorRearRightArmour", "CarNormal_Scrap_DoorRearRightArmour"},
-            {"Light_DoorRearRightArmour", "CarNormal_Light_DoorRearRightArmour"},
-            {"Heavy_DoorRearRightArmour", "CarNormal_Heavy_DoorRearRightArmour"},
-        },
-
-        ["Storage_RoofRack"] =
-        {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["ModernCar02"] =
     {
-        ["Armour_Windshield"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Storage_RoofRack"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
+        },
+        ["TireChainRearRight"] =
+        {
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["OffRoad"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_DoorFrontLeft"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Armour_WindowFrontLeft"] =
-        {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowRearRightArmour"},
-            {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowRearRightArmour"},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowRearRightArmour"},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowRearRightArmour"},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowRearRightArmour"},
-        },
-
-        ["Armour_WindowFrontRight"] =
-        {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowRearLeftArmour"},
-            {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowRearLeftArmour"},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowRearLeftArmour"},
-            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowRearLeftArmour"},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowRearLeftArmour"},
-        },
-
-        ["Armour_WindowRearLeft"] =
-        {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour"},
-            {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour"},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour"},
-            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour"},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour"},
-        },
-
-        ["Armour_WindowRearRight"] =
-        {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour"},
-            {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour"},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour"},
-            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour"},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour"},
-        },
-
-        ["Storage_RoofRack"] =
-        {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["SUV"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_DoorFrontLeft"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Armour_WindowFrontLeft"] =
-        {
-            {"Wood_WindowFrontLeftArmour",  "CarNormal_Wood_WindowFrontLeftArmour"},
-            {"Bone_WindowFrontLeftArmour",  "CarNormal_Bone_WindowFrontLeftArmour"},
-            {"Scrap_WindowFrontLeftArmour", "CarNormal_Scrap_WindowFrontLeftArmour"},
-            {"Light_WindowFrontLeftArmour", "CarNormal_Light_WindowFrontLeftArmour"},
-            {"Heavy_WindowFrontLeftArmour", "CarNormal_Heavy_WindowFrontLeftArmour"},
-        },
-
-        ["Armour_WindowFrontRight"] =
-        {
-            {"Wood_WindowFrontRightArmour",  "CarNormal_Wood_WindowFrontRightArmour"},
-            {"Bone_WindowFrontRightArmour",  "CarNormal_Bone_WindowFrontRightArmour"},
-            {"Scrap_WindowFrontRightArmour", "CarNormal_Scrap_WindowFrontRightArmour"},
-            {"Light_WindowFrontRightArmour", "CarNormal_Light_WindowFrontRightArmour"},
-            {"Heavy_WindowFrontRightArmour", "CarNormal_Heavy_WindowFrontRightArmour"},
-        },
-
-        ["Armour_DoorRearLeft"] =
-        {
-            {"Wood_DoorRearLeftArmour",  "CarNormal_Wood_DoorRearLeftArmour"},
-            {"Bone_DoorRearLeftArmour",  "CarNormal_Bone_DoorRearLeftArmour"},
-            {"Scrap_DoorRearLeftArmour", "CarNormal_Scrap_DoorRearLeftArmour"},
-            {"Light_DoorRearLeftArmour", "CarNormal_Light_DoorRearLeftArmour"},
-            {"Heavy_DoorRearLeftArmour", "CarNormal_Heavy_DoorRearLeftArmour"},
-        },
-
-        ["Armour_DoorRearRight"] =
-        {
-            {"Wood_DoorRearRightArmour",  "CarNormal_Wood_DoorRearRightArmour"},
-            {"Bone_DoorRearRightArmour",  "CarNormal_Bone_DoorRearRightArmour"},
-            {"Scrap_DoorRearRightArmour", "CarNormal_Scrap_DoorRearRightArmour"},
-            {"Light_DoorRearRightArmour", "CarNormal_Light_DoorRearRightArmour"},
-            {"Heavy_DoorRearRightArmour", "CarNormal_Heavy_DoorRearRightArmour"},
-        },
-
-        ["Armour_WindowRearLeft"] =
-        {
-            {"Wood_WindowRearLeftArmour",  "CarNormal_Wood_WindowRearLeftArmour"},
-            {"Bone_WindowRearLeftArmour",  "CarNormal_Bone_WindowRearLeftArmour"},
-            {"Scrap_WindowRearLeftArmour", "CarNormal_Scrap_WindowRearLeftArmour"},
-            {"Light_WindowRearLeftArmour", "CarNormal_Light_WindowRearLeftArmour"},
-            {"Heavy_WindowRearLeftArmour", "CarNormal_Heavy_WindowRearLeftArmour"},
-        },
-
-        ["Armour_WindowRearRight"] =
-        {
-            {"Wood_WindowRearRightArmour",  "CarNormal_Wood_WindowRearRightArmour"},
-            {"Bone_WindowRearRightArmour",  "CarNormal_Bone_WindowRearRightArmour"},
-            {"Scrap_WindowRearRightArmour", "CarNormal_Scrap_WindowRearRightArmour"},
-            {"Light_WindowRearRightArmour", "CarNormal_Light_WindowRearRightArmour"},
-            {"Heavy_WindowRearRightArmour", "CarNormal_Heavy_WindowRearRightArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["RaceCar"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Hood"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour"},
-            {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour"},
-            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour"},
-            {"Light_HoodArmour", "CarNormal_Light_HoodArmour"},
-            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
-        },
-
-        ["Armour_DoorFrontLeft"] =
-        {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
     ["CarLuxury"] =
     {
-        ["Armour_Bullbar"] =
+        ["TireChainFrontLeft"] =
         {
-            {"Wood_Bullbar",  "CarNormal_Wood_Bullbar"},
-            {"Bone_Bullbar",  "CarNormal_Bone_Bullbar"},
-            {"Scrap_Bullbar", "CarNormal_Scrap_Bullbar"},
-            {"Light_Bullbar", "CarNormal_Light_Bullbar"},
-            {"Heavy_Bullbar", "CarNormal_Heavy_Bullbar"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Hood"] =
+        ["TireChainFrontRight"] =
         {
-            {"Wood_HoodArmour",  "CarNormal_Wood_HoodArmour"},
-            {"Bone_HoodArmour",  "CarNormal_Bone_HoodArmour"},
-            {"Scrap_HoodArmour", "CarNormal_Scrap_HoodArmour"},
-            {"Light_HoodArmour", "CarNormal_Light_HoodArmour"},
-            {"Heavy_HoodArmour", "CarNormal_Heavy_HoodArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_Windshield"] =
+        ["TireChainRearLeft"] =
         {
-            {"Wood_WindshieldArmour",  "CarNormal_Wood_WindshieldArmour"},
-            {"Bone_WindshieldArmour",  "CarNormal_Bone_WindshieldArmour"},
-            {"Scrap_WindshieldArmour", "CarNormal_Scrap_WindshieldArmour"},
-            {"Light_WindshieldArmour", "CarNormal_Light_WindshieldArmour"},
-            {"Heavy_WindshieldArmour", "CarNormal_Heavy_WindshieldArmour"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
-
-        ["Armour_WindshieldRear"] =
+        ["TireChainRearRight"] =
         {
-            {"Wood_WindshieldRearArmour",  "CarNormal_Wood_WindshieldRearArmour"},
-            {"Bone_WindshieldRearArmour",  "CarNormal_Bone_WindshieldRearArmour"},
-            {"Scrap_WindshieldRearArmour", "CarNormal_Scrap_WindshieldRearArmour"},
-            {"Light_WindshieldRearArmour", "CarNormal_Light_WindshieldRearArmour"},
-            {"Heavy_WindshieldRearArmour", "CarNormal_Heavy_WindshieldRearArmour"},
-        },
-
-        ["Armour_DoorFrontLeft"] =
-        {
-            {"Wood_DoorFrontLeftArmour",  "CarNormal_Wood_DoorFrontLeftArmour"},
-            {"Bone_DoorFrontLeftArmour",  "CarNormal_Bone_DoorFrontLeftArmour"},
-            {"Scrap_DoorFrontLeftArmour", "CarNormal_Scrap_DoorFrontLeftArmour"},
-            {"Light_DoorFrontLeftArmour", "CarNormal_Light_DoorFrontLeftArmour"},
-            {"Heavy_DoorFrontLeftArmour", "CarNormal_Heavy_DoorFrontLeftArmour"},
-        },
-
-        ["Armour_DoorFrontRight"] =
-        {
-            {"Wood_DoorFrontRightArmour",  "CarNormal_Wood_DoorFrontRightArmour"},
-            {"Bone_DoorFrontRightArmour",  "CarNormal_Bone_DoorFrontRightArmour"},
-            {"Scrap_DoorFrontRightArmour", "CarNormal_Scrap_DoorFrontRightArmour"},
-            {"Light_DoorFrontRightArmour", "CarNormal_Light_DoorFrontRightArmour"},
-            {"Heavy_DoorFrontRightArmour", "CarNormal_Heavy_DoorFrontRightArmour"},
-        },
-
-        ["Storage_RoofRack"] =
-        {
-            {"Wood_RoofRack",  "CarNormal_Wood_RoofRack"},
-            {"Bone_RoofRack",  "CarNormal_Bone_RoofRack"},
-            {"Scrap_RoofRack", "CarNormal_Scrap_RoofRack"},
-            {"Light_RoofRack", "CarNormal_Light_RoofRack"},
-            {"Heavy_RoofRack", "CarNormal_Heavy_RoofRack"},
+            {"Light_TireChain",  "Light_TireChain"},
+            {"Heavy_TireChain",  "Heavy_TireChain"},
         },
     },
 }
@@ -980,299 +581,26 @@ local modelInjectionLookup =
 {
     exact =
     {
-
     },
 
     family =
     {
         -- Vanilla vehicles
-        ["CarNormal"] = modelSets.CarNormal,
-        ["CarStationWagon"] =
-        {
-            Armour_Bullbar           = modelSets.CarNormal.Armour_Bullbar,
-            Armour_Hood              = modelSets.CarNormal.Armour_Hood,
-            Armour_Windshield        = modelSets.CarNormal.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.CarStationWagon.Armour_WindshieldRear, -- wants side rearwindshield covers
-
-            Armour_DoorFrontLeft     = modelSets.CarNormal.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.CarNormal.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.CarNormal.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.CarNormal.Armour_WindowFrontRight,
-            Armour_DoorRearLeft      = modelSets.CarNormal.Armour_DoorRearLeft,
-            Armour_DoorRearRight     = modelSets.CarNormal.Armour_DoorRearRight,
-            Armour_WindowRearLeft    = modelSets.CarNormal.Armour_WindowRearLeft,
-            Armour_WindowRearRight   = modelSets.CarNormal.Armour_WindowRearRight,
-            Storage_RoofRack         = nil, -- wants 2x length roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["PickUpTruck"] =
-        {
-            Armour_Bullbar           = modelSets.PickUpTruck.Armour_Bullbar,
-            Armour_Hood              = modelSets.PickUpTruck.Armour_Hood,
-            Armour_Windshield        = modelSets.PickUpTruck.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.PickUpTruck.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.PickUpTruck.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.PickUpTruck.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.PickUpTruck.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.PickUpTruck.Armour_WindowFrontRight,
-            Storage_TruckBedCover    = nil, -- wants TruckBedCover
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["PickUpVan"] =
-        {
-            Armour_Bullbar           = modelSets.PickUpTruck.Armour_Bullbar,
-            Armour_Hood              = modelSets.PickUpTruck.Armour_Hood,
-            Armour_Windshield        = modelSets.PickUpTruck.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.PickUpVan.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.PickUpTruck.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.PickUpTruck.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.PickUpTruck.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.PickUpTruck.Armour_WindowFrontRight,
-            Storage_RoofRack         = nil, -- wants 1.5x length roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["Van"] =
-        {
-            Armour_Bullbar           = modelSets.Van.Armour_Bullbar,
-            Armour_Hood              = modelSets.Van.Armour_Hood,
-            Armour_Windshield        = modelSets.Van.Armour_Windshield,
-
-            Armour_Trunk             = modelSets.Van.Armour_Trunk,
-            Armour_WindshieldRear    = modelSets.Van.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.Van.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.Van.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.Van.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.Van.Armour_WindowFrontRight,
-            Storage_RoofRack         = modelSets.Van.Storage_RoofRack,
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["StepVan"] =
-        {
-            Armour_Bullbar           = modelSets.StepVan.Armour_Bullbar,
-            Armour_Hood              = nil, -- 0.5x length hood cover needed
-            Armour_Windshield        = nil, -- custom windshield cover with sides
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = nil, -- custom windshield cover with 2 small windows
-
-            Armour_DoorFrontLeft     = nil, -- flat door
-            Armour_DoorFrontRight    = nil, -- flat door
-            Armour_WindowFrontLeft   = nil, -- flat window
-            Armour_WindowFrontRight  = nil, -- flat window
-            Storage_RoofRack         = nil, -- wants 2x length roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["SportsCar"] =
-        {
-            Armour_Bullbar           = modelSets.SportsCar.Armour_Bullbar,
-            Armour_Hood              = nil, -- custom hood
-            Armour_Windshield        = modelSets.SportsCar.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = nil, -- custom rearwindshield
-
-            Armour_DoorFrontLeft     = nil, -- custom door
-            Armour_DoorFrontRight    = nil, -- custom door
-            Armour_WindowFrontLeft   = nil, -- custom window
-            Armour_WindowFrontRight  = nil, -- custom window
-            Storage_RoofRack         = modelSets.SportsCar.Storage_RoofRack, -- wants version with less slats since it gets scaled down
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["SmallCar"] =
-        {
-            Armour_Bullbar           = modelSets.SmallCar.Armour_Bullbar,
-            Armour_Hood              = nil, -- sportscar hood?
-            Armour_Windshield        = modelSets.SmallCar.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.SmallCar.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.SmallCar.Armour_DoorFrontLeft, -- sportscar door
-            Armour_DoorFrontRight    = modelSets.SmallCar.Armour_DoorFrontRight, -- sportscar door
-            Armour_WindowFrontLeft   = modelSets.SmallCar.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.SmallCar.Armour_WindowFrontRight,
-            Armour_WindowRearLeft    = modelSets.SmallCar.Armour_WindowRearLeft,
-            Armour_WindowRearRight   = modelSets.SmallCar.Armour_WindowRearRight,
-            Storage_RoofRack         = modelSets.SmallCar.Storage_RoofRack, -- sportscar roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["SmallCar02"] =
-        {
-            Armour_Bullbar           = modelSets.SmallCar02.Armour_Bullbar,
-            Armour_Hood              = nil, -- sportscar hood?
-            Armour_Windshield        = modelSets.SmallCar02.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.SmallCar02.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.SmallCar02.Armour_DoorFrontLeft, -- sportscar door
-            Armour_DoorFrontRight    = modelSets.SmallCar02.Armour_DoorFrontRight, -- sportscar door
-            Armour_WindowFrontLeft   = modelSets.SmallCar02.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.SmallCar02.Armour_WindowFrontRight,
-            Storage_RoofRack         = modelSets.SmallCar02.Storage_RoofRack, -- sportscar roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["ModernCar"] =
-        {
-            Armour_Bullbar           = modelSets.ModernCar.Armour_Bullbar,
-            Armour_Hood              = nil, -- van hood rotated?
-            Armour_Windshield        = modelSets.ModernCar.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.ModernCar.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.ModernCar.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.ModernCar.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.CarNormal.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.CarNormal.Armour_WindowFrontRight,
-            Armour_DoorRearLeft      = modelSets.ModernCar.Armour_DoorRearLeft,
-            Armour_DoorRearRight     = modelSets.ModernCar.Armour_DoorRearRight,
-            Armour_WindowRearLeft    = modelSets.CarNormal.Armour_WindowRearLeft,
-            Armour_WindowRearRight   = modelSets.CarNormal.Armour_WindowRearRight,
-            Storage_RoofRack         = modelSets.ModernCar.Storage_RoofRack, -- sportscar roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["ModernCar02"] =
-        {
-            Armour_Bullbar           = modelSets.ModernCar.Armour_Bullbar,
-            Armour_Hood              = nil, -- van hood rotated?
-            Armour_Windshield        = modelSets.ModernCar02.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.ModernCar02.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.ModernCar.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.ModernCar.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.CarNormal.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.CarNormal.Armour_WindowFrontRight,
-            Armour_DoorRearLeft      = modelSets.ModernCar.Armour_DoorRearLeft,
-            Armour_DoorRearRight     = modelSets.ModernCar.Armour_DoorRearRight,
-            Armour_WindowRearLeft    = modelSets.CarNormal.Armour_WindowRearLeft,
-            Armour_WindowRearRight   = modelSets.CarNormal.Armour_WindowRearRight,
-            Storage_RoofRack         = modelSets.ModernCar02.Storage_RoofRack, -- sportscar roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["OffRoad"] =
-        {
-            Armour_Bullbar           = modelSets.OffRoad.Armour_Bullbar,
-            Armour_Hood              = nil, -- van hood rotated?
-            Armour_Windshield        = modelSets.OffRoad.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.OffRoad.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.OffRoad.Armour_DoorFrontLeft, -- wants flat door
-            Armour_DoorFrontRight    = modelSets.OffRoad.Armour_DoorFrontRight, -- wants flat door
-            Armour_WindowFrontLeft   = modelSets.OffRoad.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.OffRoad.Armour_WindowFrontRight,
-            Armour_WindowRearLeft    = modelSets.OffRoad.Armour_WindowRearLeft,
-            Armour_WindowRearRight   = modelSets.OffRoad.Armour_WindowRearRight,
-            Storage_RoofRack         = modelSets.OffRoad.Storage_RoofRack,
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["SUV"] =
-        {
-            Armour_Bullbar           = modelSets.SUV.Armour_Bullbar,
-            Armour_Hood              = nil, -- van hood rotated?
-            Armour_Windshield        = modelSets.SUV.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.SUV.Armour_WindshieldRear, -- wrap windshield from stationwagon
-
-            Armour_DoorFrontLeft     = modelSets.SUV.Armour_DoorFrontLeft,
-            Armour_DoorFrontRight    = modelSets.SUV.Armour_DoorFrontRight,
-            Armour_WindowFrontLeft   = modelSets.SUV.Armour_WindowFrontLeft,
-            Armour_WindowFrontRight  = modelSets.SUV.Armour_WindowFrontRight,
-            Armour_DoorRearLeft      = modelSets.SUV.Armour_DoorRearLeft,
-            Armour_DoorRearRight     = modelSets.SUV.Armour_DoorRearRight,
-            Armour_WindowRearLeft    = modelSets.SUV.Armour_WindowRearLeft,
-            Armour_WindowRearRight   = modelSets.SUV.Armour_WindowRearRight,
-            Storage_RoofRack         = nil, -- wants 1.5x length roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["RaceCar"] =
-        {
-            Armour_Bullbar           = modelSets.RaceCar.Armour_Bullbar,
-            Armour_Hood              = modelSets.RaceCar.Armour_Hood,
-            Armour_Windshield        = modelSets.RaceCar.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.RaceCar.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.RaceCar.Armour_DoorFrontLeft, -- sportscar door
-            Armour_DoorFrontRight    = modelSets.RaceCar.Armour_DoorFrontRight, -- sportscar door
-            Armour_WindowFrontLeft   = nil, -- wants maybe custom window
-            Armour_WindowFrontRight  = nil, -- wants maybe custom window
-            Storage_RoofRack         = modelSets.CarNormal.Storage_RoofRack,
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
-        ["CarLuxury"] =
-        {
-            Armour_Bullbar           = modelSets.CarLuxury.Armour_Bullbar,
-            Armour_Hood              = modelSets.CarLuxury.Armour_Hood,
-            Armour_Windshield        = modelSets.CarLuxury.Armour_Windshield,
-
-            Armour_Trunk             = nil, -- wants rear bullbar
-            Armour_WindshieldRear    = modelSets.CarLuxury.Armour_WindshieldRear,
-
-            Armour_DoorFrontLeft     = modelSets.CarLuxury.Armour_DoorFrontLeft, -- sportscar door
-            Armour_DoorFrontRight    = modelSets.CarLuxury.Armour_DoorFrontRight, -- sportscar door
-            Armour_WindowFrontLeft   = nil, -- wants custom window
-            Armour_WindowFrontRight  = nil, -- wants custom window
-            Storage_RoofRack         = modelSets.CarLuxury.Storage_RoofRack, -- sportscar roofrack
-            TireChainFrontLeft       = modelSets.CarNormal.TireChainFrontLeft,
-            TireChainFrontRight      = modelSets.CarNormal.TireChainFrontRight,
-            TireChainRearLeft        = modelSets.CarNormal.TireChainRearLeft,
-            TireChainRearRight       = modelSets.CarNormal.TireChainRearRight,
-        },
+        ["CarNormal"]           = modelSets.CarNormal,
+        ["CarStationWagon"]     = modelSets.CarStationWagon,
+        ["PickUpTruck"]         = modelSets.PickUpTruck,
+        ["PickUpVan"]           = modelSets.PickUpVan,
+        ["Van"]                 = modelSets.Van,
+        ["StepVan"]             = modelSets.StepVan,
+        ["SportsCar"]           = modelSets.SportsCar,
+        ["SmallCar"]            = modelSets.SmallCar,
+        ["SmallCar02"]          = modelSets.SmallCar02,
+        ["ModernCar"]           = modelSets.ModernCar,
+        ["ModernCar02"]         = modelSets.ModernCar02,
+        ["OffRoad"]             = modelSets.OffRoad,
+        ["SUV"]                 = modelSets.SUV,
+        ["RaceCar"]             = modelSets.RaceCar,
+        ["CarLuxury"]           = modelSets.CarLuxury,
 
         -- Motorious Zone Vehicle Pack modded vehicles
         ["HQPanelVan"] = {},
