@@ -9,9 +9,9 @@
 local lookuptable = require("VAPlookuptables")
 
 local DEBUG = false
-local forceOverrideModelDEBUG = true
-local forceOMDEBUGvehicle = "Van"
-local forceOMDEBUGtier = {"Heavy"}
+local forceOverrideModelDEBUG = false
+local forceOMDEBUGvehicle = false -- "CarNormal"
+local forceOMDEBUGtier = false -- {"Light"}
 
 local function VAPDebug(message)
     if DEBUG then

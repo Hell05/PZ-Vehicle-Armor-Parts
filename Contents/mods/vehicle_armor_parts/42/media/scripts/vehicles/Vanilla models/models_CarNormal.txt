@@ -3,72 +3,72 @@ module Base
     model CarNormal_Wood_Bullbar
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_bullbar_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_HoodArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_hood_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_WindshieldArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_windshield_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_TrunkArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_trunk_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_WindshieldRearArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_rear_windshield_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_DoorFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_front_left_door_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_DoorFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_front_right_door_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_WindowFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_front_left_window_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_WindowFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_front_right_window_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_DoorRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_rear_left_door_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_DoorRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_rear_right_door_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_WindowRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_rear_left_window_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_WindowRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_rear_right_window_armor,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
     model CarNormal_Wood_RoofRack
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_wood_roofrack,
-        texture = Vehicles/Armour/wood,
+        texture = Vehicles/wood_armour,
     }
 
 
@@ -76,72 +76,72 @@ module Base
     model CarNormal_Bone_Bullbar
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_bullbar_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_HoodArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_hood_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_WindshieldArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_windshield_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_TrunkArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_trunk_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_WindshieldRearArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_rear_windshield_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_DoorFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_front_left_door_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_DoorFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_front_right_door_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_WindowFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_front_left_window_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_WindowFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_front_right_window_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_DoorRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_rear_left_door_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_DoorRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_rear_right_door_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_WindowRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_rear_left_window_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_WindowRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_rear_right_window_armor,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
     model CarNormal_Bone_RoofRack
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_bone_roofrack,
-        texture = Vehicles/Armour/bone,
+        texture = Vehicles/bone_armour,
     }
 
 
@@ -149,72 +149,72 @@ module Base
     model CarNormal_Scrap_Bullbar
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_bullbar_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_HoodArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_hood_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_WindshieldArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_windshield_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_TrunkArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_trunk_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_WindshieldRearArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_rear_windshield_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_DoorFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_front_left_door_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_DoorFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_front_right_door_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_WindowFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_front_left_window_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_WindowFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_front_right_window_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_DoorRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_rear_left_door_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_DoorRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_rear_right_door_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_WindowRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_rear_left_window_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_WindowRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_rear_right_window_armor,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
     model CarNormal_Scrap_RoofRack
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_scrap_chain_roof_rack,
-        texture = Vehicles/Armour/scrap,
+        texture = Vehicles/scrap_armour,
     }
 
 
@@ -222,72 +222,72 @@ module Base
     model CarNormal_Light_Bullbar
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_bullbar_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_HoodArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_hood_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_WindshieldArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_windshield_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_TrunkArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_trunk_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_WindshieldRearArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_rear_windshield_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_DoorFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_front_left_door_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_DoorFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_front_right_door_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_WindowFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_front_left_window_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_WindowFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_front_right_window_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_DoorRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_rear_left_door_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_DoorRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_rear_right_door_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_WindowRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_rear_left_window_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_WindowRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_rear_right_window_armor,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model CarNormal_Light_RoofRack
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_light_roofrack,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
 
 
@@ -295,72 +295,72 @@ module Base
     model CarNormal_Heavy_Bullbar
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_bullbar_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_HoodArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_hood_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_WindshieldArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_windshield_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_TrunkArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_trunk_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_WindshieldRearArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_rear_windshield_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_DoorFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_front_left_door_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_DoorFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_front_right_door_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_WindowFrontLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_front_left_window_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_WindowFrontRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_front_right_window_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_DoorRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_rear_left_door_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_DoorRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_rear_right_door_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_WindowRearLeftArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_rear_left_window_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_WindowRearRightArmour
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_rear_right_window_armor,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
     model CarNormal_Heavy_RoofRack
     {
         mesh = vehicles/Vanilla/CarNormal_Armour|normal_heavy_roofrack,
-        texture = Vehicles/Armour/heavy,
+        texture = Vehicles/heavy_armour,
     }
 
 
@@ -368,12 +368,12 @@ module Base
     model Light_TireChain
     {
         mesh = vehicles/Tirechain,
-        texture = Vehicles/Armour/light,
+        texture = Vehicles/light_armour,
     }
     model Heavy_TireChain
     {
-        mesh = vehicles/Vehicles_tirechain,
-        texture = Vehicles/Armour/light,
+        mesh = vehicles/Tirechain,
+        texture = Vehicles/light_armour,
     }
 
 

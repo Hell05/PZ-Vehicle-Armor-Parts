@@ -330,6 +330,7 @@ module Base
                 skills = Mechanics:4,
                 recipes = Advanced Mechanics,
                 test = Vehicles.InstallTest.Default,
+                complete = Vehicles.InstallComplete.Armour,
             }
             table uninstall
             {
@@ -347,6 +348,7 @@ module Base
                 skills = Mechanics:4,
                 recipes = Advanced Mechanics,
                 test = Vehicles.UninstallTest.Default,
+                complete = Vehicles.UninstallComplete.Armour,
 				requireEmpty = true,
             }
             lua

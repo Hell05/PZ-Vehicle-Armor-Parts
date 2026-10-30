@@ -986,7 +986,7 @@ local modelInjectionLookup =
     family =
     {
         -- Vanilla vehicles
-        ["CarNormal"] = modelSets.CarNormal, -- windshield wants slight curve
+        ["CarNormal"] = modelSets.CarNormal,
         ["CarStationWagon"] =
         {
             Armour_Bullbar           = modelSets.CarNormal.Armour_Bullbar,
@@ -1295,14 +1295,14 @@ local lookuptable = {
 
 local function reloadLookupTables()
     -- sandbox settings
-    local dmgPmulti = SandboxVars.VAP.VanillaDamagePercent / 100 -- default 0.5
+    local dmgPmulti = (SandboxVars.VAP.VanillaDamagePercent / 100) or 0.5
 
     lookuptable.durabilityTiers = {
-        Wood  = SandboxVars.VAP.WoodDurability  / 100, -- default 0.5
-        Bone  = SandboxVars.VAP.BoneDurability  / 100, -- default 1.0
-        Scrap = SandboxVars.VAP.ScrapDurability / 100, -- default 1.0
-        Light = SandboxVars.VAP.LightDurability / 100, -- default 1.75
-        Heavy = SandboxVars.VAP.HeavyDurability / 100, -- default 2.5
+        Wood  = (SandboxVars.VAP.WoodDurability  / 100) or 0.5,
+        Bone  = (SandboxVars.VAP.BoneDurability  / 100) or 1.0,
+        Scrap = (SandboxVars.VAP.ScrapDurability / 100) or 1.0,
+        Light = (SandboxVars.VAP.LightDurability / 100) or 1.75,
+        Heavy = (SandboxVars.VAP.HeavyDurability / 100) or 2.5,
     }
 
 -- stores info for the armour parts
